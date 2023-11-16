@@ -48,7 +48,7 @@ var spec1 = {
         titleX: 18,
         },
         legend: { labelColor: "#888c95", titleColor: "#dadada" },
-        view: { fill: "#000", stroke: "transparent" },
+        view: { fill: "transparent", stroke: "transparent" },
         background: "transparent",
         range: {
         category: [
