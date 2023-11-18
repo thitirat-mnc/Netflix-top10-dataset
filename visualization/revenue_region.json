@@ -1,0 +1,746 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "autosize": {"type": "pad", "contains": "padding"},
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": 5,
+    "title": {
+      "anchor": "start",
+      "text": "Streaming Revenues",
+      "subtitle": [
+        "Quarterly Data From Netflix Financial Statement Q1/2018 - Q3/2023",
+        "\n"
+      ],
+      "subtitleColor": "white"
+    },
+    "data": [
+      {
+        "name": "data-54c65146e16319f25ad3a370e915a0be",
+        "values": [
+          {
+            "Time": "2021-03-31T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3170972,
+            "Paid net membership additions (losses)": 448,
+            "Paid memberships at end of period": 74384,
+            "Average paying memberships": 74160,
+            "Average revenue per membership (2)": 14.25,
+            "% change as compared to prior-year period": 0.09,
+            "Quarter": "2021\tQ1"
+          },
+          {
+            "Time": "2021-06-30T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3234643,
+            "Paid net membership additions (losses)": -433,
+            "Paid memberships at end of period": 73951,
+            "Average paying memberships": 74168,
+            "Average revenue per membership (2)": 14.54,
+            "% change as compared to prior-year period": 0.1,
+            "Quarter": "2021\tQ2"
+          },
+          {
+            "Time": "2021-09-30T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3257697,
+            "Paid net membership additions (losses)": 73,
+            "Paid memberships at end of period": 74024,
+            "Average paying memberships": 73988,
+            "Average revenue per membership (2)": 14.68,
+            "% change as compared to prior-year period": 0.1,
+            "Quarter": "2021\tQ3"
+          },
+          {
+            "Time": "2021-12-31T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3308788,
+            "Paid net membership additions (losses)": 1191,
+            "Paid memberships at end of period": 75215,
+            "Average paying memberships": 74620,
+            "Average revenue per membership (2)": 14.78,
+            "% change as compared to prior-year period": 0.09,
+            "Quarter": "2021\tQ4"
+          },
+          {
+            "Time": "2022-03-31T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3350424,
+            "Paid net membership additions (losses)": -636,
+            "Paid memberships at end of period": 74579,
+            "Average paying memberships": 74897,
+            "Average revenue per membership (2)": 14.91,
+            "% change as compared to prior-year period": 0.05,
+            "Quarter": "2022\tQ1"
+          },
+          {
+            "Time": "2022-06-30T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3537863,
+            "Paid net membership additions (losses)": -1296,
+            "Paid memberships at end of period": 73283,
+            "Average paying memberships": 73931,
+            "Average revenue per membership (2)": 15.95,
+            "% change as compared to prior-year period": 0.1,
+            "Quarter": "2022\tQ2"
+          },
+          {
+            "Time": "2022-09-30T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3601565,
+            "Paid net membership additions (losses)": 104,
+            "Paid memberships at end of period": 73387,
+            "Average paying memberships": 73335,
+            "Average revenue per membership (2)": 16.37,
+            "% change as compared to prior-year period": 0.12,
+            "Quarter": "2022\tQ3"
+          },
+          {
+            "Time": "2022-12-31T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3594791,
+            "Paid net membership additions (losses)": 909,
+            "Paid memberships at end of period": 74296,
+            "Average paying memberships": 73842,
+            "Average revenue per membership (2)": 16.23,
+            "% change as compared to prior-year period": 0.1,
+            "Quarter": "2022\tQ4"
+          },
+          {
+            "Time": "2023-03-31T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3608645,
+            "Paid net membership additions (losses)": 102,
+            "Paid memberships at end of period": 74398,
+            "Average paying memberships": 74347,
+            "Average revenue per membership (2)": 16.18,
+            "% change as compared to prior-year period": 0.09,
+            "Quarter": "2023\tQ1"
+          },
+          {
+            "Time": "2023-06-30T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3599448,
+            "Paid net membership additions (losses)": 1173,
+            "Paid memberships at end of period": 75571,
+            "Average paying memberships": 74985,
+            "Average revenue per membership (2)": 16,
+            "% change as compared to prior-year period": 0,
+            "Quarter": "2023\tQ2"
+          },
+          {
+            "Time": "2023-09-30T00:00:00",
+            "Region": "UCAN",
+            "Revenues": 3735133,
+            "Paid net membership additions (losses)": 1750,
+            "Paid memberships at end of period": 77321,
+            "Average paying memberships": 76446,
+            "Average revenue per membership (2)": 16.29,
+            "% change as compared to prior-year period": 0,
+            "Quarter": "2023\tQ3"
+          },
+          {
+            "Time": "2021-03-31T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2343674,
+            "Paid net membership additions (losses)": 1810,
+            "Paid memberships at end of period": 68508,
+            "Average paying memberships": 67603,
+            "Average revenue per membership (2)": 11.56,
+            "% change as compared to prior-year period": 0.11,
+            "Quarter": "2021\tQ1"
+          },
+          {
+            "Time": "2021-06-30T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2400480,
+            "Paid net membership additions (losses)": 188,
+            "Paid memberships at end of period": 68696,
+            "Average paying memberships": 68602,
+            "Average revenue per membership (2)": 11.66,
+            "% change as compared to prior-year period": 0.11,
+            "Quarter": "2021\tQ2"
+          },
+          {
+            "Time": "2021-09-30T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2432239,
+            "Paid net membership additions (losses)": 1804,
+            "Paid memberships at end of period": 70500,
+            "Average paying memberships": 69598,
+            "Average revenue per membership (2)": 11.65,
+            "% change as compared to prior-year period": 0.07,
+            "Quarter": "2021\tQ3"
+          },
+          {
+            "Time": "2021-12-31T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2523426,
+            "Paid net membership additions (losses)": 3536,
+            "Paid memberships at end of period": 74036,
+            "Average paying memberships": 72268,
+            "Average revenue per membership (2)": 11.64,
+            "% change as compared to prior-year period": 0.05,
+            "Quarter": "2021\tQ4"
+          },
+          {
+            "Time": "2022-03-31T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2561831,
+            "Paid net membership additions (losses)": -303,
+            "Paid memberships at end of period": 73733,
+            "Average paying memberships": 73885,
+            "Average revenue per membership (2)": 11.56,
+            "% change as compared to prior-year period": 0,
+            "Quarter": "2022\tQ1"
+          },
+          {
+            "Time": "2022-06-30T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2457235,
+            "Paid net membership additions (losses)": -767,
+            "Paid memberships at end of period": 72966,
+            "Average paying memberships": 73350,
+            "Average revenue per membership (2)": 11.17,
+            "% change as compared to prior-year period": -0.04,
+            "Quarter": "2022\tQ2"
+          },
+          {
+            "Time": "2022-09-30T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2375814,
+            "Paid net membership additions (losses)": 568,
+            "Paid memberships at end of period": 73534,
+            "Average paying memberships": 73250,
+            "Average revenue per membership (2)": 10.81,
+            "% change as compared to prior-year period": -0.07,
+            "Quarter": "2022\tQ3"
+          },
+          {
+            "Time": "2022-12-31T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2350135,
+            "Paid net membership additions (losses)": 3195,
+            "Paid memberships at end of period": 76729,
+            "Average paying memberships": 75132,
+            "Average revenue per membership (2)": 10.43,
+            "% change as compared to prior-year period": -0.1,
+            "Quarter": "2022\tQ4"
+          },
+          {
+            "Time": "2023-03-31T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2517641,
+            "Paid net membership additions (losses)": 644,
+            "Paid memberships at end of period": 77373,
+            "Average paying memberships": 77051,
+            "Average revenue per membership (2)": 10.89,
+            "% change as compared to prior-year period": -0.06,
+            "Quarter": "2023\tQ1"
+          },
+          {
+            "Time": "2023-06-30T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2562170,
+            "Paid net membership additions (losses)": 2434,
+            "Paid memberships at end of period": 79807,
+            "Average paying memberships": 78590,
+            "Average revenue per membership (2)": 10.87,
+            "% change as compared to prior-year period": -0.03,
+            "Quarter": "2023\tQ2"
+          },
+          {
+            "Time": "2023-09-30T00:00:00",
+            "Region": "EMEA",
+            "Revenues": 2693146,
+            "Paid net membership additions (losses)": 3953,
+            "Paid memberships at end of period": 83760,
+            "Average paying memberships": 81784,
+            "Average revenue per membership (2)": 10.98,
+            "% change as compared to prior-year period": 0.02,
+            "Quarter": "2023\tQ3"
+          },
+          {
+            "Time": "2021-03-31T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 836647,
+            "Paid net membership additions (losses)": 357,
+            "Paid memberships at end of period": 37894,
+            "Average paying memberships": 37716,
+            "Average revenue per membership (2)": 7.39,
+            "% change as compared to prior-year period": -0.08,
+            "Quarter": "2021\tQ1"
+          },
+          {
+            "Time": "2021-06-30T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 860882,
+            "Paid net membership additions (losses)": 764,
+            "Paid memberships at end of period": 38658,
+            "Average paying memberships": 38276,
+            "Average revenue per membership (2)": 7.5,
+            "% change as compared to prior-year period": 0.01,
+            "Quarter": "2021\tQ2"
+          },
+          {
+            "Time": "2021-09-30T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 915297,
+            "Paid net membership additions (losses)": 330,
+            "Paid memberships at end of period": 38988,
+            "Average paying memberships": 38823,
+            "Average revenue per membership (2)": 7.86,
+            "% change as compared to prior-year period": 0.08,
+            "Quarter": "2021\tQ3"
+          },
+          {
+            "Time": "2021-12-31T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 964150,
+            "Paid net membership additions (losses)": 973,
+            "Paid memberships at end of period": 39961,
+            "Average paying memberships": 39475,
+            "Average revenue per membership (2)": 8.14,
+            "% change as compared to prior-year period": 0.14,
+            "Quarter": "2021\tQ4"
+          },
+          {
+            "Time": "2022-03-31T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 998948,
+            "Paid net membership additions (losses)": -351,
+            "Paid memberships at end of period": 39610,
+            "Average paying memberships": 39786,
+            "Average revenue per membership (2)": 8.37,
+            "% change as compared to prior-year period": 0.13,
+            "Quarter": "2022\tQ1"
+          },
+          {
+            "Time": "2022-06-30T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 1030234,
+            "Paid net membership additions (losses)": 14,
+            "Paid memberships at end of period": 39624,
+            "Average paying memberships": 39617,
+            "Average revenue per membership (2)": 8.67,
+            "% change as compared to prior-year period": 0.16,
+            "Quarter": "2022\tQ2"
+          },
+          {
+            "Time": "2022-09-30T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 1023945,
+            "Paid net membership additions (losses)": 312,
+            "Paid memberships at end of period": 39936,
+            "Average paying memberships": 39780,
+            "Average revenue per membership (2)": 8.58,
+            "% change as compared to prior-year period": 0.09,
+            "Quarter": "2022\tQ3"
+          },
+          {
+            "Time": "2022-12-31T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 1016846,
+            "Paid net membership additions (losses)": 1763,
+            "Paid memberships at end of period": 41699,
+            "Average paying memberships": 40818,
+            "Average revenue per membership (2)": 8.3,
+            "% change as compared to prior-year period": 0.02,
+            "Quarter": "2022\tQ4"
+          },
+          {
+            "Time": "2023-03-31T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 1070192,
+            "Paid net membership additions (losses)": -450,
+            "Paid memberships at end of period": 41249,
+            "Average paying memberships": 41474,
+            "Average revenue per membership (2)": 8.6,
+            "% change as compared to prior-year period": 0.03,
+            "Quarter": "2023\tQ1"
+          },
+          {
+            "Time": "2023-06-30T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 1077435,
+            "Paid net membership additions (losses)": 1217,
+            "Paid memberships at end of period": 42466,
+            "Average paying memberships": 41858,
+            "Average revenue per membership (2)": 8.58,
+            "% change as compared to prior-year period": -0.01,
+            "Quarter": "2023\tQ2"
+          },
+          {
+            "Time": "2023-09-30T00:00:00",
+            "Region": "LATAM",
+            "Revenues": 1142811,
+            "Paid net membership additions (losses)": 1179,
+            "Paid memberships at end of period": 43645,
+            "Average paying memberships": 43056,
+            "Average revenue per membership (2)": 8.85,
+            "% change as compared to prior-year period": 0.03,
+            "Quarter": "2023\tQ3"
+          },
+          {
+            "Time": "2021-03-31T00:00:00",
+            "Region": "APAC",
+            "Revenues": 762414,
+            "Paid net membership additions (losses)": 1361,
+            "Paid memberships at end of period": 26853,
+            "Average paying memberships": 26173,
+            "Average revenue per membership (2)": 9.71,
+            "% change as compared to prior-year period": 0.09,
+            "Quarter": "2021\tQ1"
+          },
+          {
+            "Time": "2021-06-30T00:00:00",
+            "Region": "APAC",
+            "Revenues": 799480,
+            "Paid net membership additions (losses)": 1022,
+            "Paid memberships at end of period": 27875,
+            "Average paying memberships": 27364,
+            "Average revenue per membership (2)": 9.74,
+            "% change as compared to prior-year period": 0.09,
+            "Quarter": "2021\tQ2"
+          },
+          {
+            "Time": "2021-09-30T00:00:00",
+            "Region": "APAC",
+            "Revenues": 834002,
+            "Paid net membership additions (losses)": 2176,
+            "Paid memberships at end of period": 30051,
+            "Average paying memberships": 28963,
+            "Average revenue per membership (2)": 9.6,
+            "% change as compared to prior-year period": 0.04,
+            "Quarter": "2021\tQ3"
+          },
+          {
+            "Time": "2021-12-31T00:00:00",
+            "Region": "APAC",
+            "Revenues": 870705,
+            "Paid net membership additions (losses)": 2581,
+            "Paid memberships at end of period": 32632,
+            "Average paying memberships": 31342,
+            "Average revenue per membership (2)": 9.26,
+            "% change as compared to prior-year period": -0.01,
+            "Quarter": "2021\tQ4"
+          },
+          {
+            "Time": "2022-03-31T00:00:00",
+            "Region": "APAC",
+            "Revenues": 916754,
+            "Paid net membership additions (losses)": 1087,
+            "Paid memberships at end of period": 33719,
+            "Average paying memberships": 33176,
+            "Average revenue per membership (2)": 9.21,
+            "% change as compared to prior-year period": -0.05,
+            "Quarter": "2022\tQ1"
+          },
+          {
+            "Time": "2022-06-30T00:00:00",
+            "Region": "APAC",
+            "Revenues": 907719,
+            "Paid net membership additions (losses)": 1080,
+            "Paid memberships at end of period": 34799,
+            "Average paying memberships": 34259,
+            "Average revenue per membership (2)": 8.83,
+            "% change as compared to prior-year period": -0.09,
+            "Quarter": "2022\tQ2"
+          },
+          {
+            "Time": "2022-09-30T00:00:00",
+            "Region": "APAC",
+            "Revenues": 889037,
+            "Paid net membership additions (losses)": 1429,
+            "Paid memberships at end of period": 36228,
+            "Average paying memberships": 35514,
+            "Average revenue per membership (2)": 8.34,
+            "% change as compared to prior-year period": -0.13,
+            "Quarter": "2022\tQ3"
+          },
+          {
+            "Time": "2022-12-31T00:00:00",
+            "Region": "APAC",
+            "Revenues": 856711,
+            "Paid net membership additions (losses)": 1795,
+            "Paid memberships at end of period": 38023,
+            "Average paying memberships": 37126,
+            "Average revenue per membership (2)": 7.69,
+            "% change as compared to prior-year period": -0.17,
+            "Quarter": "2022\tQ4"
+          },
+          {
+            "Time": "2023-03-31T00:00:00",
+            "Region": "APAC",
+            "Revenues": 933523,
+            "Paid net membership additions (losses)": 1455,
+            "Paid memberships at end of period": 39478,
+            "Average paying memberships": 38751,
+            "Average revenue per membership (2)": 8.03,
+            "% change as compared to prior-year period": -0.13,
+            "Quarter": "2023\tQ1"
+          },
+          {
+            "Time": "2023-06-30T00:00:00",
+            "Region": "APAC",
+            "Revenues": 919273,
+            "Paid net membership additions (losses)": 1068,
+            "Paid memberships at end of period": 40546,
+            "Average paying memberships": 40012,
+            "Average revenue per membership (2)": 7.66,
+            "% change as compared to prior-year period": -0.13,
+            "Quarter": "2023\tQ2"
+          },
+          {
+            "Time": "2023-09-30T00:00:00",
+            "Region": "APAC",
+            "Revenues": 948216,
+            "Paid net membership additions (losses)": 1881,
+            "Paid memberships at end of period": 42427,
+            "Average paying memberships": 41487,
+            "Average revenue per membership (2)": 7.62,
+            "% change as compared to prior-year period": -0.09,
+            "Quarter": "2023\tQ3"
+          }
+        ]
+      },
+      {
+        "name": "data_0",
+        "source": "data-54c65146e16319f25ad3a370e915a0be",
+        "transform": [
+          {
+            "type": "stack",
+            "groupby": ["Quarter", "Region"],
+            "field": "Revenues",
+            "sort": {"field": ["Region"], "order": ["descending"]},
+            "as": ["Revenues_start", "Revenues_end"],
+            "offset": "zero"
+          },
+          {
+            "type": "filter",
+            "expr": "isValid(datum[\"Revenues\"]) && isFinite(+datum[\"Revenues\"])"
+          }
+        ]
+      },
+      {
+        "name": "column_domain",
+        "source": "data_0",
+        "transform": [{"type": "aggregate", "groupby": ["Region"]}]
+      }
+    ],
+    "signals": [
+      {"name": "child_width", "value": 200},
+      {"name": "child_height", "value": 400}
+    ],
+    "layout": {
+      "padding": 20,
+      "columns": {"signal": "length(data('column_domain'))"},
+      "bounds": "full",
+      "align": "all"
+    },
+    "marks": [
+      {
+        "name": "row_header",
+        "type": "group",
+        "role": "row-header",
+        "encode": {"update": {"height": {"signal": "child_height"}}},
+        "axes": [
+          {
+            "scale": "y",
+            "orient": "left",
+            "grid": false,
+            "labelAlign": "right",
+            "labelOverlap": true,
+            "tickCount": {"signal": "ceil(child_height/40)"},
+            "zindex": 0
+          }
+        ]
+      },
+      {
+        "name": "column_header",
+        "type": "group",
+        "role": "column-header",
+        "from": {"data": "column_domain"},
+        "sort": {"field": "datum[\"Region\"]", "order": "ascending"},
+        "title": {
+          "text": {
+            "signal": "isValid(parent[\"Region\"]) ? parent[\"Region\"] : \"\"+parent[\"Region\"]"
+          },
+          "style": "guide-label",
+          "frame": "group",
+          "offset": 10
+        },
+        "encode": {"update": {"width": {"signal": "child_width"}}}
+      },
+      {
+        "name": "column_footer",
+        "type": "group",
+        "role": "column-footer",
+        "from": {"data": "column_domain"},
+        "sort": {"field": "datum[\"Region\"]", "order": "ascending"},
+        "encode": {"update": {"width": {"signal": "child_width"}}},
+        "axes": [
+          {
+            "scale": "x",
+            "orient": "bottom",
+            "grid": false,
+            "labelAngle": 315,
+            "labelAlign": "right",
+            "labelBaseline": "top",
+            "zindex": 0
+          }
+        ]
+      },
+      {
+        "name": "cell",
+        "type": "group",
+        "style": "cell",
+        "from": {
+          "facet": {"name": "facet", "data": "data_0", "groupby": ["Region"]}
+        },
+        "sort": {"field": ["datum[\"Region\"]"], "order": ["ascending"]},
+        "encode": {
+          "update": {
+            "width": {"signal": "child_width"},
+            "height": {"signal": "child_height"}
+          }
+        },
+        "marks": [
+          {
+            "name": "child_marks",
+            "type": "rect",
+            "style": ["bar"],
+            "from": {"data": "facet"},
+            "encode": {
+              "update": {
+                "fill": {"scale": "color", "field": "Region"},
+                "tooltip": {
+                  "signal": "{\"Quarter\": isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"], \"Paid memberships at end of period\": format(datum[\"Paid memberships at end of period\"], \"\"), \"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"]}"
+                },
+                "ariaRoleDescription": {"value": "bar"},
+                "description": {
+                  "signal": "\"Quarter: \" + (isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"]) + \"; Revenues: \" + (format(datum[\"Revenues\"], \"\")) + \"; Region: \" + (isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"]) + \"; Paid memberships at end of period: \" + (format(datum[\"Paid memberships at end of period\"], \"\"))"
+                },
+                "xc": {"scale": "x", "field": "Quarter", "band": 0.5},
+                "width": {"value": 10},
+                "y": {"scale": "y", "field": "Revenues_end"},
+                "y2": {"scale": "y", "field": "Revenues_start"}
+              }
+            }
+          }
+        ],
+        "axes": [
+          {
+            "scale": "y",
+            "orient": "left",
+            "gridScale": "x",
+            "grid": true,
+            "tickCount": {"signal": "ceil(child_height/40)"},
+            "domain": false,
+            "labels": false,
+            "aria": false,
+            "maxExtent": 0,
+            "minExtent": 0,
+            "ticks": false,
+            "zindex": 0
+          }
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "name": "x",
+        "type": "band",
+        "domain": {"data": "data_0", "field": "Quarter", "sort": true},
+        "range": [0, {"signal": "child_width"}],
+        "paddingInner": 0.1,
+        "paddingOuter": 0.05
+      },
+      {
+        "name": "y",
+        "type": "linear",
+        "domain": {
+          "data": "data_0",
+          "fields": ["Revenues_start", "Revenues_end"]
+        },
+        "range": [{"signal": "child_height"}, 0],
+        "nice": true,
+        "zero": true
+      },
+      {
+        "name": "color",
+        "type": "ordinal",
+        "domain": {"data": "data_0", "field": "Region", "sort": true},
+        "range": "category"
+      }
+    ],
+    "legends": [{"title": "Region", "fill": "color", "symbolType": "square"}],
+    "config": {
+      "range": {
+        "category": [
+          "#f0e442",
+          "#cc79a7",
+          "#6B9AC4",
+          "#F05039",
+          "#780909",
+          "#0b0000",
+          "#dedede",
+          "#43465e"
+        ],
+        "diverging": [
+          "#ff7272",
+          "#e80000",
+          "#c10000",
+          "#973333",
+          "#640000",
+          "#000000"
+        ]
+      },
+      "axisX": {
+        "labelColor": "#F5F5F1",
+        "titleColor": "#ededed",
+        "domain": true,
+        "domainColor": "#43465e",
+        "domainWidth": 0.5,
+        "grid": false,
+        "labelFont": "Lato",
+        "labelFontSize": 12,
+        "labelAngle": 0,
+        "tickColor": "#43465e",
+        "tickSize": 5,
+        "titleFont": "Lato",
+        "titleFontSize": 12,
+        "titlePadding": 10,
+        "title": "X Axis Title (units)"
+      },
+      "axisY": {
+        "domain": false,
+        "domainColor": "#e4e4e4",
+        "grid": true,
+        "gridColor": "#43465e",
+        "gridWidth": 1,
+        "labelFont": "Lato",
+        "labelFontSize": 12,
+        "labelColor": "#F5F5F1",
+        "labelAngle": 0,
+        "ticks": false,
+        "titleFont": "Lato",
+        "titleFontSize": 12,
+        "titlePadding": 10,
+        "title": "Y Axis Title (units)",
+        "titleAngle": 0,
+        "titleY": -10,
+        "titleX": 18
+      },
+      "legend": {"labelColor": "#888c95", "titleColor": "#dadada"},
+      "style": {
+        "guide-label": {"fill": "#fff"},
+        "guide-title": {"fill": "#fff"},
+        "cell": {"fill": "rgba(0, 0, 0, 0)", "stroke": "transparent"},
+        "group-title": {
+          "fontSize": 18,
+          "font": "Lato",
+          "subtitlefont": "Lato",
+          "fill": "#ffffff"
+        }
+      }
+    }
+  }
