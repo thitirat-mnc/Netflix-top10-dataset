@@ -734,7 +734,7 @@
       "style": {
         "guide-label": {"fill": "#fff"},
         "guide-title": {"fill": "#fff"},
-        "cell": {"fill": "#131834", "stroke": "transparent"},
+        "cell": {"fill": "rgba(0, 0, 0, 0)", "stroke": "transparent"},
         "group-title": {
           "fontSize": 18,
           "font": "Lato",
