@@ -1138,7 +1138,14 @@
       "zindex": 0
     }
   ],
-  "legends": [{"title": "Region", "fill": "color", "symbolType": "square"}],
+  "legends": [
+    {
+      "labelLimit": 0,
+      "title": "Region",
+      "fill": "color",
+      "symbolType": "square"
+    }
+  ],
   "config": {
     "range": {
       "category": [
