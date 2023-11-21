@@ -1,15 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "autosize": {"type": "fit", "contains": "padding"},
-  "background": "rgba(255, 0, 0, 0)",
+  "background": "rgba(0, 0, 0, 0)",
   "padding": 5,
   "width": 700,
   "height": 500,
   "title": {
     "anchor": "start",
-    "text": "Netflix Streaming Revenues",
-    "subtitle": ["Over Time by Quarter", "(in thousands)", "\n"],
-    "subtitleColor": "white"
+    "text": ["Over Time by Quarter (in thousands)", "\n"]
   },
   "style": "cell",
   "data": [
@@ -1201,7 +1199,7 @@
     "style": {
       "guide-label": {"fill": "#fff"},
       "guide-title": {"fill": "#fff"},
-      "cell": {"fill": "rgba(255, 0, 0, 0)", "stroke": "transparent"},
+      "cell": {"fill": "rgba(0, 0, 0, 0)", "stroke": "transparent"},
       "group-title": {
         "fontSize": 18,
         "font": "Lato",
