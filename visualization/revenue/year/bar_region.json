@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "autosize": {"type": "pad", "contains": "padding"},
-  "background": "#43465e",
+  "background": "rgba(0, 0, 0, 0)",
   "padding": 5,
   "data": [
     {
@@ -862,6 +862,7 @@
       "titleX": 18
     },
     "legend": {
+      "labelColor": "#dadada",
       "labelFont": "Lato",
       "labelFontSize": 12,
       "titleColor": "#dadada",
@@ -871,7 +872,7 @@
     "style": {
       "guide-label": {"fill": "#fff"},
       "guide-title": {"fill": "#fff"},
-      "cell": {"fill": "#43465e", "stroke": "transparent"},
+      "cell": {"fill": "rgba(0, 0, 0, 0)", "stroke": "transparent"},
       "group-title": {
         "fontSize": 18,
         "font": "Lato",
