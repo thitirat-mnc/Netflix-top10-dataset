@@ -3,20 +3,22 @@
   "autosize": {"type": "fit", "contains": "padding"},
   "background": "rgba(0, 0, 0, 0)",
   "padding": 5,
-  "width": 700,
+  "width": 800,
   "height": 500,
   "title": {
     "anchor": "start",
-    "text": ["Over Time by Quarter (in thousands)", "\n"]
+    "text": ["Over Time by Quarter (in thousands)"],
+    "subtitle": ["from Q1/2018 - Q3/2023", "\n"],
+    "subtitleColor": "white"
   },
   "style": "cell",
   "data": [
     {
-      "name": "data-00a6bdedd8fbb1b7ed21c495843ba5ce",
+      "name": "data-3db5cd915b42a7407a32ea7cc827669a",
       "values": [
         {
           "Time": "2018-03-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 1976157,
           "Paid net membership additions (losses)": 2487,
           "Paid memberships at end of period": 60909,
@@ -27,7 +29,7 @@
         },
         {
           "Time": "2018-06-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2049546,
           "Paid net membership additions (losses)": 961,
           "Paid memberships at end of period": 61870,
@@ -38,7 +40,7 @@
         },
         {
           "Time": "2018-09-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2094850,
           "Paid net membership additions (losses)": 1140,
           "Paid memberships at end of period": 63010,
@@ -49,7 +51,7 @@
         },
         {
           "Time": "2018-12-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2160979,
           "Paid net membership additions (losses)": 1747,
           "Paid memberships at end of period": 64757,
@@ -60,7 +62,7 @@
         },
         {
           "Time": "2019-03-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2256851,
           "Paid net membership additions (losses)": 1876,
           "Paid memberships at end of period": 66633,
@@ -71,7 +73,7 @@
         },
         {
           "Time": "2019-06-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2501199,
           "Paid net membership additions (losses)": -132,
           "Paid memberships at end of period": 66501,
@@ -82,7 +84,7 @@
         },
         {
           "Time": "2019-09-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2621250,
           "Paid net membership additions (losses)": 613,
           "Paid memberships at end of period": 67114,
@@ -93,7 +95,7 @@
         },
         {
           "Time": "2019-12-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2671908,
           "Paid net membership additions (losses)": 548,
           "Paid memberships at end of period": 67662,
@@ -104,7 +106,7 @@
         },
         {
           "Time": "2020-03-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2702776,
           "Paid net membership additions (losses)": 2307,
           "Paid memberships at end of period": 69969,
@@ -115,7 +117,7 @@
         },
         {
           "Time": "2020-06-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2839670,
           "Paid net membership additions (losses)": 2935,
           "Paid memberships at end of period": 72904,
@@ -126,7 +128,7 @@
         },
         {
           "Time": "2020-09-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2933445,
           "Paid net membership additions (losses)": 177,
           "Paid memberships at end of period": 73081,
@@ -137,7 +139,7 @@
         },
         {
           "Time": "2020-12-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 2979505,
           "Paid net membership additions (losses)": 855,
           "Paid memberships at end of period": 73936,
@@ -148,7 +150,7 @@
         },
         {
           "Time": "2021-03-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3170972,
           "Paid net membership additions (losses)": 448,
           "Paid memberships at end of period": 74384,
@@ -159,7 +161,7 @@
         },
         {
           "Time": "2021-06-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3234643,
           "Paid net membership additions (losses)": -433,
           "Paid memberships at end of period": 73951,
@@ -170,7 +172,7 @@
         },
         {
           "Time": "2021-09-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3257697,
           "Paid net membership additions (losses)": 73,
           "Paid memberships at end of period": 74024,
@@ -181,7 +183,7 @@
         },
         {
           "Time": "2021-12-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3308788,
           "Paid net membership additions (losses)": 1191,
           "Paid memberships at end of period": 75215,
@@ -192,7 +194,7 @@
         },
         {
           "Time": "2022-03-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3350424,
           "Paid net membership additions (losses)": -636,
           "Paid memberships at end of period": 74579,
@@ -203,7 +205,7 @@
         },
         {
           "Time": "2022-06-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3537863,
           "Paid net membership additions (losses)": -1296,
           "Paid memberships at end of period": 73283,
@@ -214,7 +216,7 @@
         },
         {
           "Time": "2022-09-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3601565,
           "Paid net membership additions (losses)": 104,
           "Paid memberships at end of period": 73387,
@@ -225,7 +227,7 @@
         },
         {
           "Time": "2022-12-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3594791,
           "Paid net membership additions (losses)": 909,
           "Paid memberships at end of period": 74296,
@@ -236,7 +238,7 @@
         },
         {
           "Time": "2023-03-31T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3608645,
           "Paid net membership additions (losses)": 102,
           "Paid memberships at end of period": 74398,
@@ -247,7 +249,7 @@
         },
         {
           "Time": "2023-06-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3599448,
           "Paid net membership additions (losses)": 1173,
           "Paid memberships at end of period": 75571,
@@ -258,7 +260,7 @@
         },
         {
           "Time": "2023-09-30T00:00:00",
-          "Region": "UCAN",
+          "Region": "UCAN - United States, Canada",
           "Revenues": 3735133,
           "Paid net membership additions (losses)": 1750,
           "Paid memberships at end of period": 77321,
@@ -269,7 +271,7 @@
         },
         {
           "Time": "2018-03-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 886649,
           "Paid net membership additions (losses)": 3335,
           "Paid memberships at end of period": 29339,
@@ -280,7 +282,7 @@
         },
         {
           "Time": "2018-06-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 975497,
           "Paid net membership additions (losses)": 1978,
           "Paid memberships at end of period": 31317,
@@ -291,7 +293,7 @@
         },
         {
           "Time": "2018-09-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 1004749,
           "Paid net membership additions (losses)": 2519,
           "Paid memberships at end of period": 33836,
@@ -302,7 +304,7 @@
         },
         {
           "Time": "2018-12-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 1096812,
           "Paid net membership additions (losses)": 3982,
           "Paid memberships at end of period": 37818,
@@ -313,7 +315,7 @@
         },
         {
           "Time": "2019-03-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 1233379,
           "Paid net membership additions (losses)": 4724,
           "Paid memberships at end of period": 42542,
@@ -324,7 +326,7 @@
         },
         {
           "Time": "2019-06-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 1319087,
           "Paid net membership additions (losses)": 1687,
           "Paid memberships at end of period": 44229,
@@ -335,7 +337,7 @@
         },
         {
           "Time": "2019-09-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 1428040,
           "Paid net membership additions (losses)": 3126,
           "Paid memberships at end of period": 47355,
@@ -346,7 +348,7 @@
         },
         {
           "Time": "2019-12-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 1562561,
           "Paid net membership additions (losses)": 4423,
           "Paid memberships at end of period": 51778,
@@ -357,7 +359,7 @@
         },
         {
           "Time": "2020-03-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 1723474,
           "Paid net membership additions (losses)": 6956,
           "Paid memberships at end of period": 58734,
@@ -368,7 +370,7 @@
         },
         {
           "Time": "2020-06-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 1892537,
           "Paid net membership additions (losses)": 2749,
           "Paid memberships at end of period": 61483,
@@ -379,7 +381,7 @@
         },
         {
           "Time": "2020-09-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2019083,
           "Paid net membership additions (losses)": 759,
           "Paid memberships at end of period": 62242,
@@ -390,7 +392,7 @@
         },
         {
           "Time": "2020-12-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2137158,
           "Paid net membership additions (losses)": 4456,
           "Paid memberships at end of period": 66698,
@@ -401,7 +403,7 @@
         },
         {
           "Time": "2021-03-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2343674,
           "Paid net membership additions (losses)": 1810,
           "Paid memberships at end of period": 68508,
@@ -412,7 +414,7 @@
         },
         {
           "Time": "2021-06-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2400480,
           "Paid net membership additions (losses)": 188,
           "Paid memberships at end of period": 68696,
@@ -423,7 +425,7 @@
         },
         {
           "Time": "2021-09-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2432239,
           "Paid net membership additions (losses)": 1804,
           "Paid memberships at end of period": 70500,
@@ -434,7 +436,7 @@
         },
         {
           "Time": "2021-12-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2523426,
           "Paid net membership additions (losses)": 3536,
           "Paid memberships at end of period": 74036,
@@ -445,7 +447,7 @@
         },
         {
           "Time": "2022-03-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2561831,
           "Paid net membership additions (losses)": -303,
           "Paid memberships at end of period": 73733,
@@ -456,7 +458,7 @@
         },
         {
           "Time": "2022-06-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2457235,
           "Paid net membership additions (losses)": -767,
           "Paid memberships at end of period": 72966,
@@ -467,7 +469,7 @@
         },
         {
           "Time": "2022-09-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2375814,
           "Paid net membership additions (losses)": 568,
           "Paid memberships at end of period": 73534,
@@ -478,7 +480,7 @@
         },
         {
           "Time": "2022-12-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2350135,
           "Paid net membership additions (losses)": 3195,
           "Paid memberships at end of period": 76729,
@@ -489,7 +491,7 @@
         },
         {
           "Time": "2023-03-31T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2517641,
           "Paid net membership additions (losses)": 644,
           "Paid memberships at end of period": 77373,
@@ -500,7 +502,7 @@
         },
         {
           "Time": "2023-06-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2562170,
           "Paid net membership additions (losses)": 2434,
           "Paid memberships at end of period": 79807,
@@ -511,7 +513,7 @@
         },
         {
           "Time": "2023-09-30T00:00:00",
-          "Region": "EMEA",
+          "Region": "EMEA - Europe, The Middle East, Africa",
           "Revenues": 2693146,
           "Paid net membership additions (losses)": 3953,
           "Paid memberships at end of period": 83760,
@@ -522,7 +524,7 @@
         },
         {
           "Time": "2018-03-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 540182,
           "Paid net membership additions (losses)": 1543,
           "Paid memberships at end of period": 21260,
@@ -533,7 +535,7 @@
         },
         {
           "Time": "2018-06-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 568071,
           "Paid net membership additions (losses)": 1535,
           "Paid memberships at end of period": 22795,
@@ -544,7 +546,7 @@
         },
         {
           "Time": "2018-09-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 562307,
           "Paid net membership additions (losses)": 1320,
           "Paid memberships at end of period": 24115,
@@ -555,7 +557,7 @@
         },
         {
           "Time": "2018-12-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 567137,
           "Paid net membership additions (losses)": 1962,
           "Paid memberships at end of period": 26077,
@@ -566,7 +568,7 @@
         },
         {
           "Time": "2019-03-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 630472,
           "Paid net membership additions (losses)": 1470,
           "Paid memberships at end of period": 27547,
@@ -577,7 +579,7 @@
         },
         {
           "Time": "2019-06-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 677136,
           "Paid net membership additions (losses)": 343,
           "Paid memberships at end of period": 27890,
@@ -588,7 +590,7 @@
         },
         {
           "Time": "2019-09-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 741434,
           "Paid net membership additions (losses)": 1490,
           "Paid memberships at end of period": 29380,
@@ -599,7 +601,7 @@
         },
         {
           "Time": "2019-12-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 746392,
           "Paid net membership additions (losses)": 2037,
           "Paid memberships at end of period": 31417,
@@ -610,7 +612,7 @@
         },
         {
           "Time": "2020-03-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 793453,
           "Paid net membership additions (losses)": 2901,
           "Paid memberships at end of period": 34318,
@@ -621,7 +623,7 @@
         },
         {
           "Time": "2020-06-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 785368,
           "Paid net membership additions (losses)": 1750,
           "Paid memberships at end of period": 36068,
@@ -632,7 +634,7 @@
         },
         {
           "Time": "2020-09-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 789384,
           "Paid net membership additions (losses)": 256,
           "Paid memberships at end of period": 36324,
@@ -643,7 +645,7 @@
         },
         {
           "Time": "2020-12-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 788522,
           "Paid net membership additions (losses)": 1213,
           "Paid memberships at end of period": 37537,
@@ -654,7 +656,7 @@
         },
         {
           "Time": "2021-03-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 836647,
           "Paid net membership additions (losses)": 357,
           "Paid memberships at end of period": 37894,
@@ -665,7 +667,7 @@
         },
         {
           "Time": "2021-06-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 860882,
           "Paid net membership additions (losses)": 764,
           "Paid memberships at end of period": 38658,
@@ -676,7 +678,7 @@
         },
         {
           "Time": "2021-09-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 915297,
           "Paid net membership additions (losses)": 330,
           "Paid memberships at end of period": 38988,
@@ -687,7 +689,7 @@
         },
         {
           "Time": "2021-12-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 964150,
           "Paid net membership additions (losses)": 973,
           "Paid memberships at end of period": 39961,
@@ -698,7 +700,7 @@
         },
         {
           "Time": "2022-03-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 998948,
           "Paid net membership additions (losses)": -351,
           "Paid memberships at end of period": 39610,
@@ -709,7 +711,7 @@
         },
         {
           "Time": "2022-06-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 1030234,
           "Paid net membership additions (losses)": 14,
           "Paid memberships at end of period": 39624,
@@ -720,7 +722,7 @@
         },
         {
           "Time": "2022-09-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 1023945,
           "Paid net membership additions (losses)": 312,
           "Paid memberships at end of period": 39936,
@@ -731,7 +733,7 @@
         },
         {
           "Time": "2022-12-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 1016846,
           "Paid net membership additions (losses)": 1763,
           "Paid memberships at end of period": 41699,
@@ -742,7 +744,7 @@
         },
         {
           "Time": "2023-03-31T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 1070192,
           "Paid net membership additions (losses)": -450,
           "Paid memberships at end of period": 41249,
@@ -753,7 +755,7 @@
         },
         {
           "Time": "2023-06-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 1077435,
           "Paid net membership additions (losses)": 1217,
           "Paid memberships at end of period": 42466,
@@ -764,7 +766,7 @@
         },
         {
           "Time": "2023-09-30T00:00:00",
-          "Region": "LATAM",
+          "Region": "LATAM - Latin America",
           "Revenues": 1142811,
           "Paid net membership additions (losses)": 1179,
           "Paid memberships at end of period": 43645,
@@ -775,7 +777,7 @@
         },
         {
           "Time": "2018-03-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 199117,
           "Paid net membership additions (losses)": 893,
           "Paid memberships at end of period": 7394,
@@ -786,7 +788,7 @@
         },
         {
           "Time": "2018-06-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 221252,
           "Paid net membership additions (losses)": 978,
           "Paid memberships at end of period": 8372,
@@ -797,7 +799,7 @@
         },
         {
           "Time": "2018-09-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 248691,
           "Paid net membership additions (losses)": 1089,
           "Paid memberships at end of period": 9461,
@@ -808,7 +810,7 @@
         },
         {
           "Time": "2018-12-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 276756,
           "Paid net membership additions (losses)": 1146,
           "Paid memberships at end of period": 10607,
@@ -819,7 +821,7 @@
         },
         {
           "Time": "2019-03-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 319602,
           "Paid net membership additions (losses)": 1534,
           "Paid memberships at end of period": 12141,
@@ -830,7 +832,7 @@
         },
         {
           "Time": "2019-06-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 349494,
           "Paid net membership additions (losses)": 801,
           "Paid memberships at end of period": 12942,
@@ -841,7 +843,7 @@
         },
         {
           "Time": "2019-09-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 382304,
           "Paid net membership additions (losses)": 1543,
           "Paid memberships at end of period": 14485,
@@ -852,7 +854,7 @@
         },
         {
           "Time": "2019-12-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 418121,
           "Paid net membership additions (losses)": 1748,
           "Paid memberships at end of period": 16233,
@@ -863,7 +865,7 @@
         },
         {
           "Time": "2020-03-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 483660,
           "Paid net membership additions (losses)": 3602,
           "Paid memberships at end of period": 19835,
@@ -874,7 +876,7 @@
         },
         {
           "Time": "2020-06-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 569140,
           "Paid net membership additions (losses)": 2657,
           "Paid memberships at end of period": 22492,
@@ -885,7 +887,7 @@
         },
         {
           "Time": "2020-09-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 634891,
           "Paid net membership additions (losses)": 1012,
           "Paid memberships at end of period": 23504,
@@ -896,7 +898,7 @@
         },
         {
           "Time": "2020-12-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 684609,
           "Paid net membership additions (losses)": 1988,
           "Paid memberships at end of period": 25492,
@@ -907,7 +909,7 @@
         },
         {
           "Time": "2021-03-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 762414,
           "Paid net membership additions (losses)": 1361,
           "Paid memberships at end of period": 26853,
@@ -918,7 +920,7 @@
         },
         {
           "Time": "2021-06-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 799480,
           "Paid net membership additions (losses)": 1022,
           "Paid memberships at end of period": 27875,
@@ -929,7 +931,7 @@
         },
         {
           "Time": "2021-09-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 834002,
           "Paid net membership additions (losses)": 2176,
           "Paid memberships at end of period": 30051,
@@ -940,7 +942,7 @@
         },
         {
           "Time": "2021-12-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 870705,
           "Paid net membership additions (losses)": 2581,
           "Paid memberships at end of period": 32632,
@@ -951,7 +953,7 @@
         },
         {
           "Time": "2022-03-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 916754,
           "Paid net membership additions (losses)": 1087,
           "Paid memberships at end of period": 33719,
@@ -962,7 +964,7 @@
         },
         {
           "Time": "2022-06-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 907719,
           "Paid net membership additions (losses)": 1080,
           "Paid memberships at end of period": 34799,
@@ -973,7 +975,7 @@
         },
         {
           "Time": "2022-09-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 889037,
           "Paid net membership additions (losses)": 1429,
           "Paid memberships at end of period": 36228,
@@ -984,7 +986,7 @@
         },
         {
           "Time": "2022-12-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 856711,
           "Paid net membership additions (losses)": 1795,
           "Paid memberships at end of period": 38023,
@@ -995,7 +997,7 @@
         },
         {
           "Time": "2023-03-31T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 933523,
           "Paid net membership additions (losses)": 1455,
           "Paid memberships at end of period": 39478,
@@ -1006,7 +1008,7 @@
         },
         {
           "Time": "2023-06-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 919273,
           "Paid net membership additions (losses)": 1068,
           "Paid memberships at end of period": 40546,
@@ -1017,7 +1019,7 @@
         },
         {
           "Time": "2023-09-30T00:00:00",
-          "Region": "APAC",
+          "Region": "APAC - Asia Pacific",
           "Revenues": 948216,
           "Paid net membership additions (losses)": 1881,
           "Paid memberships at end of period": 42427,
@@ -1029,9 +1031,20 @@
       ]
     },
     {
-      "name": "data_0",
-      "source": "data-00a6bdedd8fbb1b7ed21c495843ba5ce",
+      "name": "data_1",
+      "source": "data-3db5cd915b42a7407a32ea7cc827669a",
       "transform": [
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Revenues\"]) && isFinite(+datum[\"Revenues\"])"
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "source": "data-3db5cd915b42a7407a32ea7cc827669a",
+      "transform": [
+        {"type": "filter", "expr": "(datum.Quarter === '2023\\tQ3')"},
         {
           "type": "filter",
           "expr": "isValid(datum[\"Revenues\"]) && isFinite(+datum[\"Revenues\"])"
@@ -1041,12 +1054,12 @@
   ],
   "marks": [
     {
-      "name": "layer_0_pathgroup",
+      "name": "layer_0_layer_0_pathgroup",
       "type": "group",
       "from": {
         "facet": {
-          "name": "faceted_path_layer_0_main",
-          "data": "data-00a6bdedd8fbb1b7ed21c495843ba5ce",
+          "name": "faceted_path_layer_0_layer_0_main",
+          "data": "data-3db5cd915b42a7407a32ea7cc827669a",
           "groupby": ["Region"]
         }
       },
@@ -1058,16 +1071,16 @@
       },
       "marks": [
         {
-          "name": "layer_0_marks",
+          "name": "layer_0_layer_0_marks",
           "type": "line",
           "style": ["line"],
           "sort": {"field": "datum[\"Quarter\"]"},
-          "from": {"data": "faceted_path_layer_0_main"},
+          "from": {"data": "faceted_path_layer_0_layer_0_main"},
           "encode": {
             "update": {
               "stroke": {"scale": "color", "field": "Region"},
               "tooltip": {
-                "signal": "{\"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"], \"Quarter\": isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"], \"Revenues\": format(datum[\"Revenues\"], \"\")}"
+                "signal": "{\"Quarter\": isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"], \"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"], \"Revenues\": format(datum[\"Revenues\"], \"\")}"
               },
               "description": {
                 "signal": "\"Quarter: \" + (isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"]) + \"; Revenues: \" + (format(datum[\"Revenues\"], \"\")) + \"; Region: \" + (isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"])"
@@ -1084,17 +1097,17 @@
       ]
     },
     {
-      "name": "layer_1_marks",
+      "name": "layer_0_layer_1_marks",
       "type": "symbol",
       "style": ["point"],
-      "from": {"data": "data_0"},
+      "from": {"data": "data_1"},
       "encode": {
         "update": {
           "opacity": {"value": 1},
           "size": {"value": 100},
           "fill": {"scale": "color", "field": "Region"},
           "tooltip": {
-            "signal": "{\"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"], \"Quarter\": isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"], \"Revenues\": format(datum[\"Revenues\"], \"\")}"
+            "signal": "{\"Quarter\": isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"], \"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"], \"Revenues\": format(datum[\"Revenues\"], \"\")}"
           },
           "ariaRoleDescription": {"value": "point"},
           "description": {
@@ -1102,6 +1115,31 @@
           },
           "x": {"scale": "x", "field": "Quarter"},
           "y": {"scale": "y", "field": "Revenues"}
+        }
+      }
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "text",
+      "style": ["text"],
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "align": {"value": "left"},
+          "baseline": {"value": "middle"},
+          "dx": {"value": 16},
+          "fill": {"scale": "color", "field": "Region"},
+          "tooltip": {
+            "signal": "{\"Quarter\": isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"], \"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"], \"Revenues\": format(datum[\"Revenues\"], \"\")}"
+          },
+          "description": {
+            "signal": "\"Quarter: \" + (isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"]) + \"; Revenues: \" + (format(datum[\"Revenues\"], \"\")) + \"; Region: \" + (isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"])"
+          },
+          "x": {"scale": "x", "field": "Quarter"},
+          "y": {"scale": "y", "field": "Revenues"},
+          "text": {
+            "signal": "isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"]"
+          }
         }
       }
     }
@@ -1112,8 +1150,9 @@
       "type": "point",
       "domain": {
         "fields": [
-          {"data": "data-00a6bdedd8fbb1b7ed21c495843ba5ce", "field": "Quarter"},
-          {"data": "data_0", "field": "Quarter"}
+          {"data": "data-3db5cd915b42a7407a32ea7cc827669a", "field": "Quarter"},
+          {"data": "data_1", "field": "Quarter"},
+          {"data": "data_2", "field": "Quarter"}
         ],
         "sort": true
       },
@@ -1126,10 +1165,11 @@
       "domain": {
         "fields": [
           {
-            "data": "data-00a6bdedd8fbb1b7ed21c495843ba5ce",
+            "data": "data-3db5cd915b42a7407a32ea7cc827669a",
             "field": "Revenues"
           },
-          {"data": "data_0", "field": "Revenues"}
+          {"data": "data_1", "field": "Revenues"},
+          {"data": "data_2", "field": "Revenues"}
         ]
       },
       "range": [{"signal": "height"}, 0],
@@ -1141,8 +1181,9 @@
       "type": "ordinal",
       "domain": {
         "fields": [
-          {"data": "data-00a6bdedd8fbb1b7ed21c495843ba5ce", "field": "Region"},
-          {"data": "data_0", "field": "Region"}
+          {"data": "data-3db5cd915b42a7407a32ea7cc827669a", "field": "Region"},
+          {"data": "data_1", "field": "Region"},
+          {"data": "data_2", "field": "Region"}
         ],
         "sort": true
       },
@@ -1187,15 +1228,6 @@
       "zindex": 0
     }
   ],
-  "legends": [
-    {
-      "title": "Region",
-      "stroke": "color",
-      "symbolType": "circle",
-      "fill": "color",
-      "encode": {"symbols": {"update": {"opacity": {"value": 1}}}}
-    }
-  ],
   "config": {
     "range": {
       "category": [
@@ -1217,7 +1249,6 @@
         "#000000"
       ]
     },
-    "axis": {"labelAngle": 45},
     "axisX": {
       "labelColor": "#F5F5F1",
       "titleColor": "#ededed",
@@ -1254,7 +1285,14 @@
       "titleY": -10,
       "titleX": 18
     },
-    "legend": {"labelColor": "#888c95", "titleColor": "#dadada"},
+    "legend": {
+      "labelColor": "#dadada",
+      "labelFont": "Lato",
+      "labelFontSize": 12,
+      "titleColor": "#dadada",
+      "titleFont": "Lato",
+      "titleFontSize": 12
+    },
     "style": {
       "guide-label": {"fill": "#fff"},
       "guide-title": {"fill": "#fff"},
