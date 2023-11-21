@@ -1059,7 +1059,7 @@
         "update": {
           "fill": {"scale": "color", "field": "Region"},
           "tooltip": {
-            "signal": "{\"Quarter\": isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"], \"Revenues\": format(datum[\"Revenues\"], \"\")}"
+            "signal": "{\"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"], \"Quarter\": isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"], \"Revenues\": format(datum[\"Revenues\"], \"\")}"
           },
           "ariaRoleDescription": {"value": "bar"},
           "description": {
