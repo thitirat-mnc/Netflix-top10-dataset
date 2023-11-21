@@ -1,0 +1,672 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "autosize": {"type": "pad", "contains": "padding"},
+  "background": "rgba(0, 0, 0, 0)",
+  "padding": 5,
+  "data": [
+    {
+      "name": "data-3aaaf3693fae429ec4b4705476707f40",
+      "format": {},
+      "values": [
+        {
+          "Time": 2018,
+          "Region": "UCAN - United States, Canada",
+          "Revenues": 8281532,
+          "Paid net membership additions (losses)": 6335,
+          "Paid memberships at end of period": 64757,
+          "Average paying memberships": 61845,
+          "Average revenue per membership (2)": 11.16,
+          "% change as compared to prior-year period": 0.12,
+          "Year": 2018
+        },
+        {
+          "Time": 2019,
+          "Region": "UCAN - United States, Canada",
+          "Revenues": 10051208,
+          "Paid net membership additions (losses)": 2905,
+          "Paid memberships at end of period": 67662,
+          "Average paying memberships": 66615,
+          "Average revenue per membership (2)": 12.57,
+          "% change as compared to prior-year period": 0.13,
+          "Year": 2019
+        },
+        {
+          "Time": 2020,
+          "Region": "UCAN - United States, Canada",
+          "Revenues": 11455396,
+          "Paid net membership additions (losses)": 6274,
+          "Paid memberships at end of period": 73936,
+          "Average paying memberships": 71689,
+          "Average revenue per membership (2)": 13.32,
+          "% change as compared to prior-year period": 0.06,
+          "Year": 2020
+        },
+        {
+          "Time": 2021,
+          "Region": "UCAN - United States, Canada",
+          "Revenues": 12972100,
+          "Paid net membership additions (losses)": 1279,
+          "Paid memberships at end of period": 75215,
+          "Average paying memberships": 74234,
+          "Average revenue per membership (2)": 14.56,
+          "% change as compared to prior-year period": 0.09,
+          "Year": 2021
+        },
+        {
+          "Time": 2022,
+          "Region": "UCAN - United States, Canada",
+          "Revenues": 14084643,
+          "Paid net membership additions (losses)": -919,
+          "Paid memberships at end of period": 74296,
+          "Average paying memberships": 74001,
+          "Average revenue per membership (2)": 15.86,
+          "% change as compared to prior-year period": 0.09,
+          "Year": 2022
+        },
+        {
+          "Time": 2023,
+          "Region": "UCAN - United States, Canada",
+          "Revenues": 10943226,
+          "Paid net membership additions (losses)": 3025,
+          "Paid memberships at end of period": 77321,
+          "Average paying memberships": 75259,
+          "Average revenue per membership (2)": 16.16,
+          "% change as compared to prior-year period": 0.03,
+          "Year": 2023
+        },
+        {
+          "Time": 2018,
+          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Revenues": 3963707,
+          "Paid net membership additions (losses)": 11814,
+          "Paid memberships at end of period": 37818,
+          "Average paying memberships": 31601,
+          "Average revenue per membership (2)": 10.45,
+          "% change as compared to prior-year period": 0.14,
+          "Year": 2018
+        },
+        {
+          "Time": 2019,
+          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Revenues": 5543067,
+          "Paid net membership additions (losses)": 13960,
+          "Paid memberships at end of period": 51778,
+          "Average paying memberships": 44731,
+          "Average revenue per membership (2)": 10.33,
+          "% change as compared to prior-year period": -0.01,
+          "Year": 2019
+        },
+        {
+          "Time": 2020,
+          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Revenues": 7772252,
+          "Paid net membership additions (losses)": 14920,
+          "Paid memberships at end of period": 66698,
+          "Average paying memberships": 60425,
+          "Average revenue per membership (2)": 10.72,
+          "% change as compared to prior-year period": 0.04,
+          "Year": 2020
+        },
+        {
+          "Time": 2021,
+          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Revenues": 9699819,
+          "Paid net membership additions (losses)": 7338,
+          "Paid memberships at end of period": 74036,
+          "Average paying memberships": 69518,
+          "Average revenue per membership (2)": 11.63,
+          "% change as compared to prior-year period": 0.08,
+          "Year": 2021
+        },
+        {
+          "Time": 2022,
+          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Revenues": 9745015,
+          "Paid net membership additions (losses)": 2693,
+          "Paid memberships at end of period": 76729,
+          "Average paying memberships": 73904,
+          "Average revenue per membership (2)": 10.99,
+          "% change as compared to prior-year period": -0.06,
+          "Year": 2022
+        },
+        {
+          "Time": 2023,
+          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Revenues": 7772957,
+          "Paid net membership additions (losses)": 7031,
+          "Paid memberships at end of period": 83760,
+          "Average paying memberships": 79142,
+          "Average revenue per membership (2)": 10.91,
+          "% change as compared to prior-year period": -0.02,
+          "Year": 2023
+        },
+        {
+          "Time": 2018,
+          "Region": "LATAM - Latin America",
+          "Revenues": 2237697,
+          "Paid net membership additions (losses)": 6360,
+          "Paid memberships at end of period": 26077,
+          "Average paying memberships": 22767,
+          "Average revenue per membership (2)": 8.19,
+          "% change as compared to prior-year period": 0.01,
+          "Year": 2018
+        },
+        {
+          "Time": 2019,
+          "Region": "LATAM - Latin America",
+          "Revenues": 2795434,
+          "Paid net membership additions (losses)": 5340,
+          "Paid memberships at end of period": 31417,
+          "Average paying memberships": 28391,
+          "Average revenue per membership (2)": 8.21,
+          "% change as compared to prior-year period": 0,
+          "Year": 2019
+        },
+        {
+          "Time": 2020,
+          "Region": "LATAM - Latin America",
+          "Revenues": 3156727,
+          "Paid net membership additions (losses)": 6120,
+          "Paid memberships at end of period": 37537,
+          "Average paying memberships": 35297,
+          "Average revenue per membership (2)": 7.45,
+          "% change as compared to prior-year period": -0.09,
+          "Year": 2020
+        },
+        {
+          "Time": 2021,
+          "Region": "LATAM - Latin America",
+          "Revenues": 3576976,
+          "Paid net membership additions (losses)": 2424,
+          "Paid memberships at end of period": 39961,
+          "Average paying memberships": 38573,
+          "Average revenue per membership (2)": 7.73,
+          "% change as compared to prior-year period": 0.04,
+          "Year": 2021
+        },
+        {
+          "Time": 2022,
+          "Region": "LATAM - Latin America",
+          "Revenues": 4069973,
+          "Paid net membership additions (losses)": 1738,
+          "Paid memberships at end of period": 41699,
+          "Average paying memberships": 40000,
+          "Average revenue per membership (2)": 8.48,
+          "% change as compared to prior-year period": 0.1,
+          "Year": 2022
+        },
+        {
+          "Time": 2023,
+          "Region": "LATAM - Latin America",
+          "Revenues": 3290438,
+          "Paid net membership additions (losses)": 1946,
+          "Paid memberships at end of period": 43645,
+          "Average paying memberships": 42129,
+          "Average revenue per membership (2)": 8.68,
+          "% change as compared to prior-year period": 0.02,
+          "Year": 2023
+        },
+        {
+          "Time": 2018,
+          "Region": "APAC - Asia Pacific",
+          "Revenues": 945816,
+          "Paid net membership additions (losses)": 4106,
+          "Paid memberships at end of period": 10607,
+          "Average paying memberships": 8446,
+          "Average revenue per membership (2)": 9.33,
+          "% change as compared to prior-year period": 0.02,
+          "Year": 2018
+        },
+        {
+          "Time": 2019,
+          "Region": "APAC - Asia Pacific",
+          "Revenues": 1469521,
+          "Paid net membership additions (losses)": 5626,
+          "Paid memberships at end of period": 16233,
+          "Average paying memberships": 13247,
+          "Average revenue per membership (2)": 9.24,
+          "% change as compared to prior-year period": -0.01,
+          "Year": 2019
+        },
+        {
+          "Time": 2020,
+          "Region": "APAC - Asia Pacific",
+          "Revenues": 2372300,
+          "Paid net membership additions (losses)": 9259,
+          "Paid memberships at end of period": 25492,
+          "Average paying memberships": 21674,
+          "Average revenue per membership (2)": 9.12,
+          "% change as compared to prior-year period": -0.01,
+          "Year": 2020
+        },
+        {
+          "Time": 2021,
+          "Region": "APAC - Asia Pacific",
+          "Revenues": 3266601,
+          "Paid net membership additions (losses)": 7140,
+          "Paid memberships at end of period": 32632,
+          "Average paying memberships": 28461,
+          "Average revenue per membership (2)": 9.56,
+          "% change as compared to prior-year period": 0.05,
+          "Year": 2021
+        },
+        {
+          "Time": 2022,
+          "Region": "APAC - Asia Pacific",
+          "Revenues": 3570221,
+          "Paid net membership additions (losses)": 5391,
+          "Paid memberships at end of period": 38023,
+          "Average paying memberships": 35019,
+          "Average revenue per membership (2)": 8.5,
+          "% change as compared to prior-year period": -0.11,
+          "Year": 2022
+        },
+        {
+          "Time": 2023,
+          "Region": "APAC - Asia Pacific",
+          "Revenues": 2801012,
+          "Paid net membership additions (losses)": 4404,
+          "Paid memberships at end of period": 42427,
+          "Average paying memberships": 40083,
+          "Average revenue per membership (2)": 7.76,
+          "% change as compared to prior-year period": -0.12,
+          "Year": 2023
+        }
+      ]
+    },
+    {"name": "data-9c00aa9dc2b1c1a0b4bf9b34ead12925", "values": [{"x": 0}]},
+    {
+      "name": "data_1",
+      "source": "data-3aaaf3693fae429ec4b4705476707f40",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["Year"],
+          "field": "Revenues",
+          "sort": {"field": ["Region"], "order": ["descending"]},
+          "as": ["Revenues_start", "Revenues_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Revenues\"]) && isFinite(+datum[\"Revenues\"])"
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "source": "data-3aaaf3693fae429ec4b4705476707f40",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["Year"],
+          "field": "Paid memberships at end of period",
+          "sort": {"field": ["Region"], "order": ["descending"]},
+          "as": [
+            "Paid memberships at end of period_start",
+            "Paid memberships at end of period_end"
+          ],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Paid memberships at end of period\"]) && isFinite(+datum[\"Paid memberships at end of period\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {"name": "concat_0_width", "value": 300},
+    {"name": "concat_0_height", "value": 300},
+    {"name": "concat_1_width", "value": 60},
+    {"name": "concat_1_height", "value": 400},
+    {"name": "concat_2_width", "value": 300},
+    {"name": "concat_2_height", "value": 300}
+  ],
+  "layout": {"padding": 20, "bounds": "full", "align": "each"},
+  "marks": [
+    {
+      "type": "group",
+      "name": "concat_0_group",
+      "title": {
+        "anchor": "start",
+        "text": ["Netflix Streaming Revenues (in thousands)"],
+        "subtitle": ["(data end at Q3/2023)", "\n"],
+        "subtitleColor": "white"
+      },
+      "style": "cell",
+      "encode": {
+        "update": {
+          "width": {"signal": "concat_0_width"},
+          "height": {"signal": "concat_0_height"}
+        }
+      },
+      "marks": [
+        {
+          "name": "concat_0_marks",
+          "type": "rect",
+          "style": ["bar"],
+          "from": {"data": "data_1"},
+          "encode": {
+            "update": {
+              "fill": {"scale": "color", "field": "Region"},
+              "opacity": [
+                {"test": "(datum.Year === 2023)", "value": 0.6},
+                {"value": 1}
+              ],
+              "tooltip": {
+                "signal": "{\"Year\": isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"], \"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"], \"Revenues\": format(datum[\"Revenues\"], \"\")}"
+              },
+              "ariaRoleDescription": {"value": "bar"},
+              "description": {
+                "signal": "\"Quarter: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"]) + \"; Revenues: \" + (format(datum[\"Revenues\"], \"\")) + \"; Region: \" + (isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"]) + \"; Year: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"])"
+              },
+              "xc": {"scale": "concat_0_x", "field": "Year", "band": 0.5},
+              "width": {"value": 25},
+              "y": {"scale": "concat_0_y", "field": "Revenues_end"},
+              "y2": {"scale": "concat_0_y", "field": "Revenues_start"}
+            }
+          }
+        }
+      ],
+      "axes": [
+        {
+          "scale": "concat_0_y",
+          "orient": "left",
+          "offset": 20,
+          "gridScale": "concat_0_x",
+          "grid": true,
+          "tickCount": {"signal": "ceil(concat_0_height/40)"},
+          "domain": false,
+          "labels": false,
+          "aria": false,
+          "maxExtent": 0,
+          "minExtent": 0,
+          "ticks": false,
+          "zindex": 0
+        },
+        {
+          "scale": "concat_0_x",
+          "orient": "bottom",
+          "grid": false,
+          "title": "Quarter",
+          "labelAngle": 315,
+          "labelAlign": "right",
+          "labelBaseline": "top",
+          "zindex": 0
+        },
+        {
+          "scale": "concat_0_y",
+          "orient": "left",
+          "grid": false,
+          "labelAngle": 0,
+          "offset": 20,
+          "labelAlign": "right",
+          "labelOverlap": true,
+          "tickCount": {"signal": "ceil(concat_0_height/40)"},
+          "zindex": 0
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "concat_1_group",
+      "style": "cell",
+      "encode": {
+        "update": {
+          "width": {"signal": "concat_1_width"},
+          "height": {"signal": "concat_1_height"}
+        }
+      },
+      "marks": [
+        {
+          "name": "concat_1_marks",
+          "type": "rect",
+          "style": ["bar"],
+          "from": {"data": "data-9c00aa9dc2b1c1a0b4bf9b34ead12925"},
+          "encode": {
+            "update": {
+              "opacity": {"value": 1},
+              "fill": {"value": "white"},
+              "ariaRoleDescription": {"value": "bar"},
+              "x": {"value": 0},
+              "x2": {"value": 0},
+              "y": {"value": 0},
+              "y2": {"field": {"group": "height"}}
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "concat_2_group",
+      "title": {
+        "anchor": "start",
+        "text": "Netflix Paid Memberships (in thousands)",
+        "subtitle": ["(data end at Q3/2023)", "\n"],
+        "subtitleColor": "white"
+      },
+      "style": "cell",
+      "encode": {
+        "update": {
+          "width": {"signal": "concat_2_width"},
+          "height": {"signal": "concat_2_height"}
+        }
+      },
+      "marks": [
+        {
+          "name": "concat_2_marks",
+          "type": "rect",
+          "style": ["bar"],
+          "from": {"data": "data_2"},
+          "encode": {
+            "update": {
+              "fill": {"scale": "color", "field": "Region"},
+              "opacity": [
+                {"test": "(datum.Year === 2023)", "value": 0.6},
+                {"value": 1}
+              ],
+              "tooltip": {
+                "signal": "{\"Year\": isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"], \"Region\": isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"], \"Paid memberships at end of period\": format(datum[\"Paid memberships at end of period\"], \"\")}"
+              },
+              "ariaRoleDescription": {"value": "bar"},
+              "description": {
+                "signal": "\"Quarter: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"]) + \"; Paid memberships at end of period: \" + (format(datum[\"Paid memberships at end of period\"], \"\")) + \"; Region: \" + (isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"]) + \"; Year: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"])"
+              },
+              "xc": {"scale": "concat_2_x", "field": "Year", "band": 0.5},
+              "width": {"value": 25},
+              "y": {
+                "scale": "concat_2_y",
+                "field": "Paid memberships at end of period_end"
+              },
+              "y2": {
+                "scale": "concat_2_y",
+                "field": "Paid memberships at end of period_start"
+              }
+            }
+          }
+        }
+      ],
+      "axes": [
+        {
+          "scale": "concat_2_y",
+          "orient": "left",
+          "offset": 20,
+          "gridScale": "concat_2_x",
+          "grid": true,
+          "tickCount": {"signal": "ceil(concat_2_height/40)"},
+          "domain": false,
+          "labels": false,
+          "aria": false,
+          "maxExtent": 0,
+          "minExtent": 0,
+          "ticks": false,
+          "zindex": 0
+        },
+        {
+          "scale": "concat_2_x",
+          "orient": "bottom",
+          "grid": false,
+          "title": "Quarter",
+          "labelAngle": 315,
+          "labelAlign": "right",
+          "labelBaseline": "top",
+          "zindex": 0
+        },
+        {
+          "scale": "concat_2_y",
+          "orient": "left",
+          "grid": false,
+          "labelAngle": 0,
+          "offset": 20,
+          "labelAlign": "right",
+          "labelOverlap": true,
+          "tickCount": {"signal": "ceil(concat_2_height/40)"},
+          "zindex": 0
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {
+        "fields": [
+          {"data": "data_1", "field": "Region"},
+          {"data": "data_2", "field": "Region"}
+        ],
+        "sort": true
+      },
+      "range": "category"
+    },
+    {
+      "name": "concat_0_x",
+      "type": "band",
+      "domain": {"data": "data_1", "field": "Year", "sort": true},
+      "range": [0, {"signal": "concat_0_width"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "concat_0_y",
+      "type": "linear",
+      "domain": {
+        "data": "data_1",
+        "fields": ["Revenues_start", "Revenues_end"]
+      },
+      "range": [{"signal": "concat_0_height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "concat_2_x",
+      "type": "band",
+      "domain": {"data": "data_2", "field": "Year", "sort": true},
+      "range": [0, {"signal": "concat_2_width"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "concat_2_y",
+      "type": "linear",
+      "domain": {
+        "data": "data_2",
+        "fields": [
+          "Paid memberships at end of period_start",
+          "Paid memberships at end of period_end"
+        ]
+      },
+      "range": [{"signal": "concat_2_height"}, 0],
+      "nice": true,
+      "zero": true
+    }
+  ],
+  "legends": [
+    {
+      "labelLimit": 0,
+      "title": "Region",
+      "fill": "color",
+      "symbolType": "square",
+      "encode": {"symbols": {"update": {"opacity": {"value": 1}}}}
+    }
+  ],
+  "config": {
+    "range": {
+      "category": [
+        "#f0e442",
+        "#cc79a7",
+        "#79c9cd",
+        "#D55e00",
+        "#780909",
+        "#0b0000",
+        "#dedede",
+        "#43465e"
+      ],
+      "diverging": [
+        "#ff7272",
+        "#e80000",
+        "#c10000",
+        "#973333",
+        "#640000",
+        "#000000"
+      ]
+    },
+    "axisX": {
+      "labelColor": "#F5F5F1",
+      "titleColor": "#ededed",
+      "domain": true,
+      "domainColor": "#43465e",
+      "domainWidth": 0.5,
+      "grid": false,
+      "labelFont": "Lato",
+      "labelFontSize": 12,
+      "labelAngle": 0,
+      "tickColor": "#43465e",
+      "tickSize": 5,
+      "titleFont": "Lato",
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "title": "X Axis Title (units)"
+    },
+    "axisY": {
+      "domain": false,
+      "domainColor": "#e4e4e4",
+      "grid": true,
+      "gridColor": "#43465e",
+      "gridWidth": 1,
+      "labelFont": "Lato",
+      "labelFontSize": 12,
+      "labelColor": "#F5F5F1",
+      "labelAngle": 0,
+      "ticks": false,
+      "titleFont": "Lato",
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "title": "Y Axis Title (units)",
+      "titleAngle": 0,
+      "titleY": -10,
+      "titleX": 18
+    },
+    "legend": {
+      "labelColor": "#dadada",
+      "labelFont": "Lato",
+      "labelFontSize": 12,
+      "titleColor": "#dadada",
+      "titleFont": "Lato",
+      "titleFontSize": 12
+    },
+    "style": {
+      "guide-label": {"fill": "#fff"},
+      "guide-title": {"fill": "#fff"},
+      "cell": {"fill": "rgba(0, 0, 0, 0)", "stroke": "transparent"},
+      "group-title": {
+        "fontSize": 18,
+        "font": "Lato",
+        "subtitlefont": "Lato",
+        "fill": "#ffffff"
+      }
+    }
+  }
+}
