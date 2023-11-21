@@ -5,7 +5,7 @@
   "padding": 5,
   "width": 570,
   "data": [
-    {"name": "param_92_store"},
+    {"name": "param_94_store"},
     {
       "name": "data-3db5cd915b42a7407a32ea7cc827669a",
       "values": [
@@ -1029,7 +1029,7 @@
       "transform": [
         {
           "type": "filter",
-          "expr": "!length(data(\"param_92_store\")) || vlSelectionTest(\"param_92_store\", datum)"
+          "expr": "!length(data(\"param_94_store\")) || vlSelectionTest(\"param_94_store\", datum)"
         }
       ]
     },
@@ -1075,7 +1075,7 @@
   ],
   "signals": [
     {"name": "concat_0_height", "value": 350},
-    {"name": "view_82_height", "value": 100},
+    {"name": "view_84_height", "value": 120},
     {
       "name": "unit",
       "value": {},
@@ -1084,8 +1084,8 @@
       ]
     },
     {
-      "name": "param_92",
-      "update": "vlSelectionResolve(\"param_92_store\", \"union\")"
+      "name": "param_94",
+      "update": "vlSelectionResolve(\"param_94_store\", \"union\")"
     }
   ],
   "layout": {"padding": 20, "columns": 1, "bounds": "full", "align": "each"},
@@ -1242,17 +1242,17 @@
     },
     {
       "type": "group",
-      "name": "view_82_group",
+      "name": "view_84_group",
       "style": "cell",
       "encode": {
         "update": {
           "width": {"signal": "width"},
-          "height": {"signal": "view_82_height"}
+          "height": {"signal": "view_84_height"}
         }
       },
       "signals": [
         {
-          "name": "param_92_x",
+          "name": "param_94_x",
           "value": [],
           "on": [
             {
@@ -1260,7 +1260,7 @@
                 "source": "scope",
                 "type": "mousedown",
                 "filter": [
-                  "!event.item || event.item.mark.name !== \"param_92_brush\""
+                  "!event.item || event.item.mark.name !== \"param_94_brush\""
                 ]
               },
               "update": "[x(unit), x(unit)]"
@@ -1275,16 +1275,16 @@
                     "source": "scope",
                     "type": "mousedown",
                     "filter": [
-                      "!event.item || event.item.mark.name !== \"param_92_brush\""
+                      "!event.item || event.item.mark.name !== \"param_94_brush\""
                     ]
                   },
                   {"source": "window", "type": "mouseup"}
                 ]
               },
-              "update": "[param_92_x[0], clamp(x(unit), 0, width)]"
+              "update": "[param_94_x[0], clamp(x(unit), 0, width)]"
             },
             {
-              "events": {"signal": "param_92_scale_trigger"},
+              "events": {"signal": "param_94_scale_trigger"},
               "update": "[0, 0]"
             },
             {
@@ -1292,49 +1292,49 @@
               "update": "[0, 0]"
             },
             {
-              "events": {"signal": "param_92_translate_delta"},
-              "update": "clampRange(panLinear(param_92_translate_anchor.extent_x, param_92_translate_delta.x / span(param_92_translate_anchor.extent_x)), 0, width)"
+              "events": {"signal": "param_94_translate_delta"},
+              "update": "clampRange(panLinear(param_94_translate_anchor.extent_x, param_94_translate_delta.x / span(param_94_translate_anchor.extent_x)), 0, width)"
             },
             {
-              "events": {"signal": "param_92_zoom_delta"},
-              "update": "clampRange(zoomLinear(param_92_x, param_92_zoom_anchor.x, param_92_zoom_delta), 0, width)"
+              "events": {"signal": "param_94_zoom_delta"},
+              "update": "clampRange(zoomLinear(param_94_x, param_94_zoom_anchor.x, param_94_zoom_delta), 0, width)"
             }
           ]
         },
         {
-          "name": "param_92_Quarter",
+          "name": "param_94_Quarter",
           "on": [
             {
-              "events": {"signal": "param_92_x"},
-              "update": "param_92_x[0] === param_92_x[1] ? null : invert(\"view_82_x\", param_92_x)"
+              "events": {"signal": "param_94_x"},
+              "update": "param_94_x[0] === param_94_x[1] ? null : invert(\"view_84_x\", param_94_x)"
             }
           ]
         },
         {
-          "name": "param_92_scale_trigger",
+          "name": "param_94_scale_trigger",
           "value": {},
           "on": [
             {
-              "events": [{"scale": "view_82_x"}],
-              "update": "(!isArray(param_92_Quarter) || (invert(\"view_82_x\", param_92_x)[0] === param_92_Quarter[0] && invert(\"view_82_x\", param_92_x)[1] === param_92_Quarter[1])) ? param_92_scale_trigger : {}"
+              "events": [{"scale": "view_84_x"}],
+              "update": "(!isArray(param_94_Quarter) || (invert(\"view_84_x\", param_94_x)[0] === param_94_Quarter[0] && invert(\"view_84_x\", param_94_x)[1] === param_94_Quarter[1])) ? param_94_scale_trigger : {}"
             }
           ]
         },
         {
-          "name": "param_92_tuple",
+          "name": "param_94_tuple",
           "on": [
             {
-              "events": [{"signal": "param_92_Quarter"}],
-              "update": "param_92_Quarter ? {unit: \"view_82\", fields: param_92_tuple_fields, values: [param_92_Quarter]} : null"
+              "events": [{"signal": "param_94_Quarter"}],
+              "update": "param_94_Quarter ? {unit: \"view_84\", fields: param_94_tuple_fields, values: [param_94_Quarter]} : null"
             }
           ]
         },
         {
-          "name": "param_92_tuple_fields",
+          "name": "param_94_tuple_fields",
           "value": [{"field": "Quarter", "channel": "x", "type": "E"}]
         },
         {
-          "name": "param_92_translate_anchor",
+          "name": "param_94_translate_anchor",
           "value": {},
           "on": [
             {
@@ -1342,15 +1342,15 @@
                 {
                   "source": "scope",
                   "type": "mousedown",
-                  "markname": "param_92_brush"
+                  "markname": "param_94_brush"
                 }
               ],
-              "update": "{x: x(unit), y: y(unit), extent_x: slice(param_92_x)}"
+              "update": "{x: x(unit), y: y(unit), extent_x: slice(param_94_x)}"
             }
           ]
         },
         {
-          "name": "param_92_translate_delta",
+          "name": "param_94_translate_delta",
           "value": {},
           "on": [
             {
@@ -1363,18 +1363,18 @@
                     {
                       "source": "scope",
                       "type": "mousedown",
-                      "markname": "param_92_brush"
+                      "markname": "param_94_brush"
                     },
                     {"source": "window", "type": "mouseup"}
                   ]
                 }
               ],
-              "update": "{x: param_92_translate_anchor.x - x(unit), y: param_92_translate_anchor.y - y(unit)}"
+              "update": "{x: param_94_translate_anchor.x - x(unit), y: param_94_translate_anchor.y - y(unit)}"
             }
           ]
         },
         {
-          "name": "param_92_zoom_anchor",
+          "name": "param_94_zoom_anchor",
           "on": [
             {
               "events": [
@@ -1382,7 +1382,7 @@
                   "source": "scope",
                   "type": "wheel",
                   "consume": true,
-                  "markname": "param_92_brush"
+                  "markname": "param_94_brush"
                 }
               ],
               "update": "{x: x(unit), y: y(unit)}"
@@ -1390,7 +1390,7 @@
           ]
         },
         {
-          "name": "param_92_zoom_delta",
+          "name": "param_94_zoom_delta",
           "on": [
             {
               "events": [
@@ -1398,7 +1398,7 @@
                   "source": "scope",
                   "type": "wheel",
                   "consume": true,
-                  "markname": "param_92_brush"
+                  "markname": "param_94_brush"
                 }
               ],
               "force": true,
@@ -1407,18 +1407,18 @@
           ]
         },
         {
-          "name": "param_92_modify",
+          "name": "param_94_modify",
           "on": [
             {
-              "events": {"signal": "param_92_tuple"},
-              "update": "modify(\"param_92_store\", param_92_tuple, true)"
+              "events": {"signal": "param_94_tuple"},
+              "update": "modify(\"param_94_store\", param_94_tuple, true)"
             }
           ]
         }
       ],
       "marks": [
         {
-          "name": "param_92_brush_bg",
+          "name": "param_94_brush_bg",
           "type": "rect",
           "clip": true,
           "encode": {
@@ -1429,28 +1429,28 @@
             "update": {
               "x": [
                 {
-                  "test": "data(\"param_92_store\").length && data(\"param_92_store\")[0].unit === \"view_82\"",
-                  "signal": "param_92_x[0]"
+                  "test": "data(\"param_94_store\").length && data(\"param_94_store\")[0].unit === \"view_84\"",
+                  "signal": "param_94_x[0]"
                 },
                 {"value": 0}
               ],
               "y": [
                 {
-                  "test": "data(\"param_92_store\").length && data(\"param_92_store\")[0].unit === \"view_82\"",
+                  "test": "data(\"param_94_store\").length && data(\"param_94_store\")[0].unit === \"view_84\"",
                   "value": 0
                 },
                 {"value": 0}
               ],
               "x2": [
                 {
-                  "test": "data(\"param_92_store\").length && data(\"param_92_store\")[0].unit === \"view_82\"",
-                  "signal": "param_92_x[1]"
+                  "test": "data(\"param_94_store\").length && data(\"param_94_store\")[0].unit === \"view_84\"",
+                  "signal": "param_94_x[1]"
                 },
                 {"value": 0}
               ],
               "y2": [
                 {
-                  "test": "data(\"param_92_store\").length && data(\"param_92_store\")[0].unit === \"view_82\"",
+                  "test": "data(\"param_94_store\").length && data(\"param_94_store\")[0].unit === \"view_84\"",
                   "field": {"group": "height"}
                 },
                 {"value": 0}
@@ -1459,7 +1459,7 @@
           }
         },
         {
-          "name": "view_82_marks",
+          "name": "view_84_marks",
           "type": "rect",
           "style": ["bar"],
           "interactive": true,
@@ -1469,7 +1469,7 @@
               "fill": {"scale": "color", "field": "Region"},
               "opacity": [
                 {
-                  "test": "!length(data(\"param_92_store\")) || vlSelectionTest(\"param_92_store\", datum)",
+                  "test": "!length(data(\"param_94_store\")) || vlSelectionTest(\"param_94_store\", datum)",
                   "value": 1
                 },
                 {"value": 0.3}
@@ -1481,15 +1481,15 @@
               "description": {
                 "signal": "\"Quarter: \" + (isValid(datum[\"Quarter\"]) ? datum[\"Quarter\"] : \"\"+datum[\"Quarter\"]) + \"; Revenues: \" + (format(datum[\"Revenues\"], \"\")) + \"; Region: \" + (isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"])"
               },
-              "xc": {"scale": "view_82_x", "field": "Quarter", "band": 0.5},
+              "xc": {"scale": "view_84_x", "field": "Quarter", "band": 0.5},
               "width": {"value": 17},
-              "y": {"scale": "view_82_y", "field": "Revenues_end"},
-              "y2": {"scale": "view_82_y", "field": "Revenues_start"}
+              "y": {"scale": "view_84_y", "field": "Revenues_end"},
+              "y2": {"scale": "view_84_y", "field": "Revenues_start"}
             }
           }
         },
         {
-          "name": "param_92_brush",
+          "name": "param_94_brush",
           "type": "rect",
           "clip": true,
           "encode": {
@@ -1497,34 +1497,34 @@
             "update": {
               "x": [
                 {
-                  "test": "data(\"param_92_store\").length && data(\"param_92_store\")[0].unit === \"view_82\"",
-                  "signal": "param_92_x[0]"
+                  "test": "data(\"param_94_store\").length && data(\"param_94_store\")[0].unit === \"view_84\"",
+                  "signal": "param_94_x[0]"
                 },
                 {"value": 0}
               ],
               "y": [
                 {
-                  "test": "data(\"param_92_store\").length && data(\"param_92_store\")[0].unit === \"view_82\"",
+                  "test": "data(\"param_94_store\").length && data(\"param_94_store\")[0].unit === \"view_84\"",
                   "value": 0
                 },
                 {"value": 0}
               ],
               "x2": [
                 {
-                  "test": "data(\"param_92_store\").length && data(\"param_92_store\")[0].unit === \"view_82\"",
-                  "signal": "param_92_x[1]"
+                  "test": "data(\"param_94_store\").length && data(\"param_94_store\")[0].unit === \"view_84\"",
+                  "signal": "param_94_x[1]"
                 },
                 {"value": 0}
               ],
               "y2": [
                 {
-                  "test": "data(\"param_92_store\").length && data(\"param_92_store\")[0].unit === \"view_82\"",
+                  "test": "data(\"param_94_store\").length && data(\"param_94_store\")[0].unit === \"view_84\"",
                   "field": {"group": "height"}
                 },
                 {"value": 0}
               ],
               "stroke": [
-                {"test": "param_92_x[0] !== param_92_x[1]", "value": "white"},
+                {"test": "param_94_x[0] !== param_94_x[1]", "value": "white"},
                 {"value": null}
               ]
             }
@@ -1533,12 +1533,12 @@
       ],
       "axes": [
         {
-          "scale": "view_82_y",
+          "scale": "view_84_y",
           "orient": "left",
           "offset": 20,
-          "gridScale": "view_82_x",
+          "gridScale": "view_84_x",
           "grid": true,
-          "tickCount": {"signal": "ceil(view_82_height/40)"},
+          "tickCount": {"signal": "ceil(view_84_height/40)"},
           "domain": false,
           "labels": false,
           "aria": false,
@@ -1548,7 +1548,7 @@
           "zindex": 0
         },
         {
-          "scale": "view_82_x",
+          "scale": "view_84_x",
           "orient": "bottom",
           "grid": false,
           "title": "Quarter",
@@ -1558,14 +1558,14 @@
           "zindex": 0
         },
         {
-          "scale": "view_82_y",
+          "scale": "view_84_y",
           "orient": "left",
           "grid": false,
           "labelAngle": 0,
           "offset": 20,
           "labelAlign": "right",
           "labelOverlap": true,
-          "tickCount": {"signal": "ceil(view_82_height/40)"},
+          "tickCount": {"signal": "ceil(view_84_height/40)"},
           "zindex": 0
         }
       ]
@@ -1615,7 +1615,7 @@
       "zero": true
     },
     {
-      "name": "view_82_x",
+      "name": "view_84_x",
       "type": "band",
       "domain": {"data": "data_4", "field": "Quarter", "sort": true},
       "range": [0, {"signal": "width"}],
@@ -1623,19 +1623,20 @@
       "paddingOuter": 0.05
     },
     {
-      "name": "view_82_y",
+      "name": "view_84_y",
       "type": "linear",
       "domain": {
         "data": "data_4",
         "fields": ["Revenues_start", "Revenues_end"]
       },
-      "range": [{"signal": "view_82_height"}, 0],
+      "range": [{"signal": "view_84_height"}, 0],
       "nice": true,
       "zero": true
     }
   ],
   "legends": [
     {
+      "labelLimit": 0,
       "title": "Region",
       "stroke": "color",
       "symbolType": "circle",
