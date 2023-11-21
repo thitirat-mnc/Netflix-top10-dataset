@@ -1095,7 +1095,7 @@
       "name": "concat_0_group",
       "title": {
         "anchor": "start",
-        "text": "Overtime by Quarter (in thousands)",
+        "text": "Over Time by Quarter (in thousands)",
         "subtitle": ["from Q1/2018 - Q3/2023", "\n"],
         "subtitleColor": "white"
       },
