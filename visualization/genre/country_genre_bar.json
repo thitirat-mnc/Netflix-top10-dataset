@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "autosize": {"type": "pad", "contains": "padding"},
-  "background": "#111",
+  "background": "rgba(0, 0, 0, 0)",
   "padding": 5,
   "data": [
     {"name": "selector007_store"},
