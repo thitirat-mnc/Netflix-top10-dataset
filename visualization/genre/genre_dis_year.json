@@ -1,0 +1,451 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "autosize": {"type": "pad", "contains": "padding"},
+  "background": "rgba(0, 0, 0, 0)",
+  "padding": 5,
+  "data": [
+    {
+      "name": "selector007_store",
+      "transform": [{"type": "collect", "sort": {"field": "_vgsid_"}}]
+    },
+    {
+      "name": "data-30fa1669d739ac743295e96e3ce6cf2e",
+      "values": [
+        {"Genre": "Action", "Count": 14503, "Year": "2021"},
+        {"Genre": "Adventure", "Count": 9896, "Year": "2021"},
+        {"Genre": "Animation", "Count": 4346, "Year": "2021"},
+        {"Genre": "Comedy", "Count": 14533, "Year": "2021"},
+        {"Genre": "Crime", "Count": 9450, "Year": "2021"},
+        {"Genre": "Documentary", "Count": 778, "Year": "2021"},
+        {"Genre": "Drama", "Count": 26577, "Year": "2021"},
+        {"Genre": "Family", "Count": 4063, "Year": "2021"},
+        {"Genre": "Fantasy", "Count": 7227, "Year": "2021"},
+        {"Genre": "History", "Count": 732, "Year": "2021"},
+        {"Genre": "Horror", "Count": 2177, "Year": "2021"},
+        {"Genre": "Music", "Count": 229, "Year": "2021"},
+        {"Genre": "Mystery", "Count": 5760, "Year": "2021"},
+        {"Genre": "Romance", "Count": 3988, "Year": "2021"},
+        {"Genre": "Science Fiction", "Count": 5660, "Year": "2021"},
+        {"Genre": "TV Movie", "Count": 94, "Year": "2021"},
+        {"Genre": "Thriller", "Count": 7023, "Year": "2021"},
+        {"Genre": "War", "Count": 997, "Year": "2021"},
+        {"Genre": "Western", "Count": 603, "Year": "2021"},
+        {"Genre": "Kids", "Count": 526, "Year": "2021"},
+        {"Genre": "Reality", "Count": 1019, "Year": "2021"},
+        {"Genre": "Soap", "Count": 1464, "Year": "2021"},
+        {"Genre": "Talk", "Count": 3, "Year": "2021"},
+        {"Genre": "Politics", "Count": 538, "Year": "2021"},
+        {"Genre": "Action", "Count": 21039, "Year": "2022"},
+        {"Genre": "Adventure", "Count": 16172, "Year": "2022"},
+        {"Genre": "Animation", "Count": 4678, "Year": "2022"},
+        {"Genre": "Comedy", "Count": 24287, "Year": "2022"},
+        {"Genre": "Crime", "Count": 17905, "Year": "2022"},
+        {"Genre": "Documentary", "Count": 3199, "Year": "2022"},
+        {"Genre": "Drama", "Count": 56459, "Year": "2022"},
+        {"Genre": "Family", "Count": 6531, "Year": "2022"},
+        {"Genre": "Fantasy", "Count": 17529, "Year": "2022"},
+        {"Genre": "History", "Count": 1790, "Year": "2022"},
+        {"Genre": "Horror", "Count": 3458, "Year": "2022"},
+        {"Genre": "Music", "Count": 889, "Year": "2022"},
+        {"Genre": "Mystery", "Count": 17711, "Year": "2022"},
+        {"Genre": "Romance", "Count": 9251, "Year": "2022"},
+        {"Genre": "Science Fiction", "Count": 17312, "Year": "2022"},
+        {"Genre": "TV Movie", "Count": 353, "Year": "2022"},
+        {"Genre": "Thriller", "Count": 12474, "Year": "2022"},
+        {"Genre": "War", "Count": 2014, "Year": "2022"},
+        {"Genre": "Western", "Count": 173, "Year": "2022"},
+        {"Genre": "Kids", "Count": 453, "Year": "2022"},
+        {"Genre": "Reality", "Count": 2391, "Year": "2022"},
+        {"Genre": "Soap", "Count": 2398, "Year": "2022"},
+        {"Genre": "Talk", "Count": 3, "Year": "2022"},
+        {"Genre": "Politics", "Count": 970, "Year": "2022"},
+        {"Genre": "Action", "Count": 21587, "Year": "2023"},
+        {"Genre": "Adventure", "Count": 15686, "Year": "2023"},
+        {"Genre": "Animation", "Count": 6527, "Year": "2023"},
+        {"Genre": "Comedy", "Count": 23586, "Year": "2023"},
+        {"Genre": "Crime", "Count": 14883, "Year": "2023"},
+        {"Genre": "Documentary", "Count": 3489, "Year": "2023"},
+        {"Genre": "Drama", "Count": 40367, "Year": "2023"},
+        {"Genre": "Family", "Count": 7019, "Year": "2023"},
+        {"Genre": "Fantasy", "Count": 11969, "Year": "2023"},
+        {"Genre": "History", "Count": 1183, "Year": "2023"},
+        {"Genre": "Horror", "Count": 3749, "Year": "2023"},
+        {"Genre": "Music", "Count": 915, "Year": "2023"},
+        {"Genre": "Mystery", "Count": 13819, "Year": "2023"},
+        {"Genre": "Romance", "Count": 6604, "Year": "2023"},
+        {"Genre": "Science Fiction", "Count": 11447, "Year": "2023"},
+        {"Genre": "TV Movie", "Count": 115, "Year": "2023"},
+        {"Genre": "Thriller", "Count": 13374, "Year": "2023"},
+        {"Genre": "War", "Count": 1915, "Year": "2023"},
+        {"Genre": "Western", "Count": 162, "Year": "2023"},
+        {"Genre": "Kids", "Count": 508, "Year": "2023"},
+        {"Genre": "Reality", "Count": 2209, "Year": "2023"},
+        {"Genre": "Soap", "Count": 766, "Year": "2023"},
+        {"Genre": "Talk", "Count": 30, "Year": "2023"},
+        {"Genre": "Politics", "Count": 1032, "Year": "2023"}
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-30fa1669d739ac743295e96e3ce6cf2e",
+      "transform": [{"type": "identifier", "as": "_vgsid_"}]
+    },
+    {
+      "name": "column_domain",
+      "source": "data_0",
+      "transform": [{"type": "aggregate", "groupby": ["Year"]}]
+    },
+    {
+      "name": "data_3",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["Genre", "Year"],
+          "field": "Count",
+          "sort": {"field": [], "order": []},
+          "as": ["Count_start", "Count_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Count\"]) && isFinite(+datum[\"Count\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {"name": "child_width", "value": 200},
+    {"name": "y_step", "value": 20},
+    {
+      "name": "child_height",
+      "update": "bandspace(domain('y').length, 0.1, 0.05) * y_step"
+    },
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "pointermove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector007",
+      "update": "vlSelectionResolve(\"selector007_store\", \"union\", true, true)"
+    }
+  ],
+  "layout": {
+    "padding": 20,
+    "offset": {"columnTitle": 10},
+    "columns": {"signal": "length(data('column_domain'))"},
+    "bounds": "full",
+    "align": "all"
+  },
+  "marks": [
+    {
+      "name": "column-title",
+      "type": "group",
+      "role": "column-title",
+      "title": {"text": "Year", "style": "guide-title", "offset": 10}
+    },
+    {
+      "name": "row_header",
+      "type": "group",
+      "role": "row-header",
+      "encode": {"update": {"height": {"signal": "child_height"}}},
+      "axes": [
+        {
+          "scale": "y",
+          "orient": "left",
+          "grid": false,
+          "labelAlign": "right",
+          "zindex": 0
+        }
+      ]
+    },
+    {
+      "name": "column_header",
+      "type": "group",
+      "role": "column-header",
+      "from": {"data": "column_domain"},
+      "sort": {"field": "datum[\"Year\"]", "order": "ascending"},
+      "title": {
+        "text": {
+          "signal": "isValid(parent[\"Year\"]) ? parent[\"Year\"] : \"\"+parent[\"Year\"]"
+        },
+        "style": "guide-label",
+        "frame": "group",
+        "offset": 10
+      },
+      "encode": {"update": {"width": {"signal": "child_width"}}}
+    },
+    {
+      "name": "column_footer",
+      "type": "group",
+      "role": "column-footer",
+      "from": {"data": "column_domain"},
+      "sort": {"field": "datum[\"Year\"]", "order": "ascending"},
+      "encode": {"update": {"width": {"signal": "child_width"}}},
+      "axes": [
+        {
+          "scale": "x",
+          "orient": "bottom",
+          "grid": false,
+          "labelBaseline": "top",
+          "labelFlush": true,
+          "labelOverlap": true,
+          "tickCount": {"signal": "ceil(child_width/40)"},
+          "zindex": 0
+        }
+      ]
+    },
+    {
+      "name": "cell",
+      "type": "group",
+      "style": "cell",
+      "from": {
+        "facet": {"name": "facet", "data": "data_0", "groupby": ["Year"]}
+      },
+      "sort": {"field": ["datum[\"Year\"]"], "order": ["ascending"]},
+      "data": [
+        {
+          "source": "facet",
+          "name": "data_0",
+          "transform": [
+            {
+              "type": "stack",
+              "groupby": ["Genre"],
+              "field": "Count",
+              "sort": {"field": [], "order": []},
+              "as": ["Count_start", "Count_end"],
+              "offset": "zero"
+            },
+            {
+              "type": "filter",
+              "expr": "isValid(datum[\"Count\"]) && isFinite(+datum[\"Count\"])"
+            }
+          ]
+        }
+      ],
+      "encode": {
+        "update": {
+          "width": {"signal": "child_width"},
+          "height": {"signal": "child_height"}
+        }
+      },
+      "signals": [
+        {
+          "name": "facet",
+          "value": {},
+          "on": [
+            {
+              "events": [{"source": "scope", "type": "pointermove"}],
+              "update": "isTuple(facet) ? facet : group(\"cell\").datum"
+            }
+          ]
+        },
+        {
+          "name": "selector007_tuple",
+          "on": [
+            {
+              "events": [
+                {
+                  "source": "scope",
+                  "type": "mouseover",
+                  "markname": "child_voronoi"
+                }
+              ],
+              "update": "datum && item().mark.marktype !== 'group' && indexof(item().mark.role, 'legend') < 0 ? {unit: \"child\" + '__facet_column_' + (facet[\"Year\"]), _vgsid_: (item().isVoronoi ? datum.datum : datum)[\"_vgsid_\"]} : null",
+              "force": true
+            },
+            {
+              "events": [{"source": "view", "type": "dblclick"}],
+              "update": "null"
+            }
+          ]
+        },
+        {
+          "name": "selector007_modify",
+          "on": [
+            {
+              "events": {"signal": "selector007_tuple"},
+              "update": "modify(\"selector007_store\", selector007_tuple, true)"
+            }
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "name": "child_marks",
+          "type": "rect",
+          "style": ["bar"],
+          "interactive": true,
+          "from": {"data": "data_0"},
+          "encode": {
+            "update": {
+              "fill": [
+                {
+                  "test": "!length(data(\"selector007_store\")) || vlSelectionIdTest(\"selector007_store\", datum)",
+                  "value": "#E50914"
+                },
+                {"value": "darkgray"}
+              ],
+              "tooltip": {
+                "signal": "{\"Genre\": isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"], \"Count\": format(datum[\"Count\"], \"\")}"
+              },
+              "ariaRoleDescription": {"value": "bar"},
+              "description": {
+                "signal": "\"Count: \" + (format(datum[\"Count\"], \"\")) + \"; Genre: \" + (isValid(datum[\"Genre\"]) ? datum[\"Genre\"] : \"\"+datum[\"Genre\"])"
+              },
+              "x": {"scale": "x", "field": "Count_end"},
+              "x2": {"scale": "x", "field": "Count_start"},
+              "y": {"scale": "y", "field": "Genre"},
+              "height": {"signal": "max(0.25, bandwidth('y'))"}
+            }
+          }
+        },
+        {
+          "name": "child_voronoi",
+          "type": "path",
+          "interactive": true,
+          "from": {"data": "child_marks"},
+          "encode": {
+            "update": {
+              "fill": {"value": "transparent"},
+              "strokeWidth": {"value": 0.35},
+              "stroke": {"value": "transparent"},
+              "isVoronoi": {"value": true},
+              "tooltip": {
+                "signal": "{\"Genre\": isValid(datum.datum[\"Genre\"]) ? datum.datum[\"Genre\"] : \"\"+datum.datum[\"Genre\"], \"Count\": format(datum.datum[\"Count\"], \"\")}"
+              }
+            }
+          },
+          "transform": [
+            {
+              "type": "voronoi",
+              "x": {"expr": "datum.datum.x || 0"},
+              "y": {"expr": "datum.datum.y || 0"},
+              "size": [{"signal": "child_width"}, {"signal": "child_height"}]
+            }
+          ]
+        }
+      ],
+      "axes": [
+        {
+          "scale": "x",
+          "orient": "bottom",
+          "gridScale": "y",
+          "grid": true,
+          "tickCount": {"signal": "ceil(child_width/40)"},
+          "domain": false,
+          "labels": false,
+          "aria": false,
+          "maxExtent": 0,
+          "minExtent": 0,
+          "ticks": false,
+          "zindex": 0
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": {"data": "data_3", "fields": ["Count_start", "Count_end"]},
+      "range": [0, {"signal": "child_width"}],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {
+        "data": "data_0",
+        "field": "Genre",
+        "sort": {"op": "sum", "field": "Count", "order": "descending"}
+      },
+      "range": {"step": {"signal": "y_step"}},
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    }
+  ],
+  "config": {
+    "range": {
+      "category": [
+        "#f0e442",
+        "#cc79a7",
+        "#79c9cd",
+        "#D55e00",
+        "#780909",
+        "#0b0000",
+        "#dedede",
+        "#43465e"
+      ],
+      "diverging": [
+        "#ff7272",
+        "#e80000",
+        "#c10000",
+        "#973333",
+        "#640000",
+        "#000000"
+      ]
+    },
+    "axisX": {
+      "labelColor": "#F5F5F1",
+      "titleColor": "#ededed",
+      "domain": true,
+      "domainColor": "#43465e",
+      "domainWidth": 0.5,
+      "grid": true,
+      "gridColor": "#3c3c3c",
+      "labelFont": "Lato",
+      "labelFontSize": 12,
+      "labelAngle": 0,
+      "tickColor": "#43465e",
+      "tickSize": 5,
+      "titleFont": "Lato",
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "title": "X Axis Title (units)"
+    },
+    "axisY": {
+      "domain": false,
+      "domainColor": "#e4e4e4",
+      "grid": false,
+      "gridColor": "#43465e",
+      "gridWidth": 1,
+      "labelFont": "Lato",
+      "labelFontSize": 12,
+      "labelColor": "#F5F5F1",
+      "labelPadding": 10,
+      "labelAngle": 0,
+      "ticks": false,
+      "titleFont": "Lato",
+      "titleFontSize": 12,
+      "titlePadding": 10,
+      "title": "Y Axis Title (units)",
+      "titleAngle": 0,
+      "titleY": -10,
+      "titleX": 18
+    },
+    "legend": {
+      "labelColor": "#dadada",
+      "labelFont": "Lato",
+      "labelFontSize": 12,
+      "titleColor": "#dadada",
+      "titleFont": "Lato",
+      "titleFontSize": 12
+    },
+    "style": {
+      "guide-label": {"fill": "#fff"},
+      "guide-title": {"fill": "#fff"},
+      "cell": {"fill": "rgba(0, 0, 0, 0)", "stroke": "transparent"},
+      "group-title": {
+        "fontSize": 18,
+        "font": "Lato",
+        "subtitlefont": "Lato",
+        "fill": "#ffffff"
+      }
+    }
+  }
+}
