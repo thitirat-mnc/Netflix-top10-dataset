@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Website</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans+Georgian:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .hidden {
+        display: none;
+      }
+      .vega-embed {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+      }
+      .hidden {
+        display: none !important;
+      }
+
+      #vis.vega-embed details,
+      #vis.vega-embed details summary {
+        position: relative;
+      }
+      h1 {
+        color: white;
+      }
+      body {
+        font-family: "Lato", sans-serif;
+        background-color: #1e1f23;
+        margin: 25px 0 0 25px;
+      }
+
+      select {
+        /* Reset */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: 0;
+        outline: 0;
+        font: inherit;
+        margin: 0 auto; /* Centers the select horizontally */
+        display: block;
+        /* Personalize */
+        width: 16em;
+        height: 2.5em;
+        padding: 0 4em 0 1em;
+        background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
+            no-repeat right 0.8em center/1.4em,
+          linear-gradient(
+            to left,
+            rgba(255, 255, 255, 0.3) 3em,
+            rgba(255, 255, 255, 0.2) 3em
+          );
+        color: white;
+        border-radius: 0.25em;
+        box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+      }
+      
+      select option {
+        color: inherit;
+        background-color: #320a28;
+      }
+      select:focus {
+        outline: none;
+      }
+      select::-ms-expand {
+        display: none;
+      }
+    </style>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/vega@5"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/vega-lite@5.14.1"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/vega-embed@6"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <select name="visualization" id="visualization-select">
+        <option value="vis1">throughout every year</option>
+        <option value="vis2">each year in comparison</option>
+        <!-- Add more options as needed -->
+    </select>
+    <!-- First Chart -->
+    <div id="vis1" class="vega-embed">
+      <script type="text/javascript">
+        var spec1 =
+          "https://raw.githubusercontent.com/thitirat-mnc/Netflix-top10-dataset/main/visualization/genre/genre_distribution.json";
+        vegaEmbed("#vis1", spec1, { actions: false });
+      </script>
+    </div>
+    <!-- Second Chart -->
+    <div id="vis2" class="vega-embed hidden">
+      <script type="text/javascript">
+        var spec2 =
+          "https://raw.githubusercontent.com/thitirat-mnc/Netflix-top10-dataset/main/visualization/genre/genre_dis_year.json";
+        vegaEmbed("#vis2", spec2, { actions: false });
+      </script>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#visualization-select").on("change", function () {
+          var selectedVis = $(this).val();
+          $(".vega-embed").addClass("hidden");
+          $("#" + selectedVis).removeClass("hidden");
+        });
+      });
+    </script>
+  </body>
+</html>
+
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Netflix Website</title>
+            <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans+Georgian:wght@100;200;300;400&display=swap"
+          rel="stylesheet"
+        />
+    <style>
+      .hidden {
+        display: none;
+      }
+      .vega-embed {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+      }
+      .hidden {
+        display: none !important;
+      }
+
+      #vis.vega-embed details,
+      #vis.vega-embed details summary {
+        position: relative;
+      }
+      h1 {
+        color: white;
+      }
+      body {
+        font-family: "Lato", sans-serif;
+        background-color: #1e1f23;
+        margin: 50px 0 0 100px;
+      }
+      #toggle-buttons {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 20px;
+        padding: 0; /* Remove default padding */
+
+      }
+
+      .toggle-btn {
+        padding: 10px 20px;
+        margin: 0 5px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .toggle-btn:hover {
+        background-color: #555;
+      }
+
+      .toggle-btn.active {
+        background-color: #d20000; /* Change to the color you prefer */
+      }
+      .toggle-btn + .toggle-btn {
+            margin-left: 0;
+        }
+    </style>
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/vega@5"
+></script>
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/vega-lite@5.14.1"
+></script>
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/vega-embed@6"
+></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>  <body>
+    <!-- Toggle buttons -->
+    <div id="toggle-buttons">
+      <button class="toggle-btn" data-vis="vis1">Highlight Only Drama </button>
+      <button class="toggle-btn" data-vis="vis2">Explore Others</button>
+      <!-- Add more buttons as needed -->
+    </div>
+    <!-- Chart divs remain the same -->
+    <!-- First Chart -->
+    <div id="vis1" class="vega-embed">
+        <script type="text/javascript">
+          var spec1 =
+          "https://raw.githubusercontent.com/thitirat-mnc/Netflix-top10-dataset/main/visualization/genre/highlight_drama.json";
+          vegaEmbed("#vis1", spec1, { actions: false });
+        </script>
+      </div>
+      <!-- Second Chart -->
+      <div id="vis2" class="vega-embed hidden">
+        <script type="text/javascript">
+          var spec2 =
+            "https://raw.githubusercontent.com/thitirat-mnc/Netflix-top10-dataset/main/visualization/genre/country_genre_bar.json";
+          vegaEmbed("#vis2", spec2, { actions: false });
+        </script>
+      </div>
+      <!-- Third Chart -->
+      <div id="vis3" class="vega-embed hidden">
+        <script type="text/javascript">
+          var spec3 =
+           "https://raw.githubusercontent.com/thitirat-mnc/Netflix-top10-dataset/main/visualization/revenue/quarter/stacked_quarterly_revenue.json"
+          vegaEmbed("#vis3", spec3, { actions: false });
+        </script>
+      </div>
+  
+    <!-- Your existing jQuery script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".toggle-btn").on("click", function () {
+          var selectedVis = $(this).data("vis");
+          $(".vega-embed").addClass("hidden");
+          $("#" + selectedVis).removeClass("hidden");
+
+          // Add or remove 'active' class for styling
+          $(".toggle-btn").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
+
