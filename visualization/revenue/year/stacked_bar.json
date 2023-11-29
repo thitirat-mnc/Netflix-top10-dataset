@@ -3,6 +3,7 @@
   "autosize": {"type": "pad", "contains": "padding"},
   "background": "rgba(0, 0, 0, 0)",
   "padding": 5,
+  "height": 400,
   "data": [
     {
       "name": "data-3aaaf3693fae429ec4b4705476707f40",
@@ -316,12 +317,9 @@
     }
   ],
   "signals": [
-    {"name": "concat_0_width", "value": 300},
-    {"name": "concat_0_height", "value": 300},
+    {"name": "concat_0_width", "value": 400},
     {"name": "concat_1_width", "value": 60},
-    {"name": "concat_1_height", "value": 400},
-    {"name": "concat_2_width", "value": 300},
-    {"name": "concat_2_height", "value": 300}
+    {"name": "concat_2_width", "value": 400}
   ],
   "layout": {"padding": 20, "bounds": "full", "align": "each"},
   "marks": [
@@ -338,7 +336,7 @@
       "encode": {
         "update": {
           "width": {"signal": "concat_0_width"},
-          "height": {"signal": "concat_0_height"}
+          "height": {"signal": "height"}
         }
       },
       "marks": [
@@ -362,7 +360,7 @@
                 "signal": "\"Quarter: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"]) + \"; Revenues: \" + (format(datum[\"Revenues\"], \"\")) + \"; Region: \" + (isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"]) + \"; Year: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"])"
               },
               "xc": {"scale": "concat_0_x", "field": "Year", "band": 0.5},
-              "width": {"value": 25},
+              "width": {"value": 30},
               "y": {"scale": "concat_0_y", "field": "Revenues_end"},
               "y2": {"scale": "concat_0_y", "field": "Revenues_start"}
             }
@@ -376,7 +374,7 @@
           "offset": 20,
           "gridScale": "concat_0_x",
           "grid": true,
-          "tickCount": {"signal": "ceil(concat_0_height/40)"},
+          "tickCount": {"signal": "ceil(height/40)"},
           "domain": false,
           "labels": false,
           "aria": false,
@@ -403,7 +401,7 @@
           "offset": 20,
           "labelAlign": "right",
           "labelOverlap": true,
-          "tickCount": {"signal": "ceil(concat_0_height/40)"},
+          "tickCount": {"signal": "ceil(height/40)"},
           "zindex": 0
         }
       ]
@@ -415,7 +413,7 @@
       "encode": {
         "update": {
           "width": {"signal": "concat_1_width"},
-          "height": {"signal": "concat_1_height"}
+          "height": {"signal": "height"}
         }
       },
       "marks": [
@@ -451,7 +449,7 @@
       "encode": {
         "update": {
           "width": {"signal": "concat_2_width"},
-          "height": {"signal": "concat_2_height"}
+          "height": {"signal": "height"}
         }
       },
       "marks": [
@@ -475,7 +473,7 @@
                 "signal": "\"Quarter: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"]) + \"; Paid memberships at end of period: \" + (format(datum[\"Paid memberships at end of period\"], \"\")) + \"; Region: \" + (isValid(datum[\"Region\"]) ? datum[\"Region\"] : \"\"+datum[\"Region\"]) + \"; Year: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"])"
               },
               "xc": {"scale": "concat_2_x", "field": "Year", "band": 0.5},
-              "width": {"value": 25},
+              "width": {"value": 30},
               "y": {
                 "scale": "concat_2_y",
                 "field": "Paid memberships at end of period_end"
@@ -495,7 +493,7 @@
           "offset": 20,
           "gridScale": "concat_2_x",
           "grid": true,
-          "tickCount": {"signal": "ceil(concat_2_height/40)"},
+          "tickCount": {"signal": "ceil(height/40)"},
           "domain": false,
           "labels": false,
           "aria": false,
@@ -522,7 +520,7 @@
           "offset": 20,
           "labelAlign": "right",
           "labelOverlap": true,
-          "tickCount": {"signal": "ceil(concat_2_height/40)"},
+          "tickCount": {"signal": "ceil(height/40)"},
           "zindex": 0
         }
       ]
@@ -556,7 +554,7 @@
         "data": "data_1",
         "fields": ["Revenues_start", "Revenues_end"]
       },
-      "range": [{"signal": "concat_0_height"}, 0],
+      "range": [{"signal": "height"}, 0],
       "nice": true,
       "zero": true
     },
@@ -578,18 +576,9 @@
           "Paid memberships at end of period_end"
         ]
       },
-      "range": [{"signal": "concat_2_height"}, 0],
+      "range": [{"signal": "height"}, 0],
       "nice": true,
       "zero": true
-    }
-  ],
-  "legends": [
-    {
-      "labelLimit": 0,
-      "title": "Region",
-      "fill": "color",
-      "symbolType": "square",
-      "encode": {"symbols": {"update": {"opacity": {"value": 1}}}}
     }
   ],
   "config": {
