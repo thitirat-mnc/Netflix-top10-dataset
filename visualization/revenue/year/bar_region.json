@@ -5,12 +5,12 @@
   "padding": 5,
   "data": [
     {
-      "name": "data-3aaaf3693fae429ec4b4705476707f40",
+      "name": "data-c0a7fedda859543e0a7922ab21afa5b7",
       "format": {},
       "values": [
         {
           "Time": 2018,
-          "Region": "UCAN - United States, Canada",
+          "Region": "UCAN",
           "Revenues": 8281532,
           "Paid net membership additions (losses)": 6335,
           "Paid memberships at end of period": 64757,
@@ -21,7 +21,7 @@
         },
         {
           "Time": 2019,
-          "Region": "UCAN - United States, Canada",
+          "Region": "UCAN",
           "Revenues": 10051208,
           "Paid net membership additions (losses)": 2905,
           "Paid memberships at end of period": 67662,
@@ -32,7 +32,7 @@
         },
         {
           "Time": 2020,
-          "Region": "UCAN - United States, Canada",
+          "Region": "UCAN",
           "Revenues": 11455396,
           "Paid net membership additions (losses)": 6274,
           "Paid memberships at end of period": 73936,
@@ -43,7 +43,7 @@
         },
         {
           "Time": 2021,
-          "Region": "UCAN - United States, Canada",
+          "Region": "UCAN",
           "Revenues": 12972100,
           "Paid net membership additions (losses)": 1279,
           "Paid memberships at end of period": 75215,
@@ -54,7 +54,7 @@
         },
         {
           "Time": 2022,
-          "Region": "UCAN - United States, Canada",
+          "Region": "UCAN",
           "Revenues": 14084643,
           "Paid net membership additions (losses)": -919,
           "Paid memberships at end of period": 74296,
@@ -65,7 +65,7 @@
         },
         {
           "Time": 2023,
-          "Region": "UCAN - United States, Canada",
+          "Region": "UCAN",
           "Revenues": 10943226,
           "Paid net membership additions (losses)": 3025,
           "Paid memberships at end of period": 77321,
@@ -76,7 +76,7 @@
         },
         {
           "Time": 2018,
-          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Region": "EMEA",
           "Revenues": 3963707,
           "Paid net membership additions (losses)": 11814,
           "Paid memberships at end of period": 37818,
@@ -87,7 +87,7 @@
         },
         {
           "Time": 2019,
-          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Region": "EMEA",
           "Revenues": 5543067,
           "Paid net membership additions (losses)": 13960,
           "Paid memberships at end of period": 51778,
@@ -98,7 +98,7 @@
         },
         {
           "Time": 2020,
-          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Region": "EMEA",
           "Revenues": 7772252,
           "Paid net membership additions (losses)": 14920,
           "Paid memberships at end of period": 66698,
@@ -109,7 +109,7 @@
         },
         {
           "Time": 2021,
-          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Region": "EMEA",
           "Revenues": 9699819,
           "Paid net membership additions (losses)": 7338,
           "Paid memberships at end of period": 74036,
@@ -120,7 +120,7 @@
         },
         {
           "Time": 2022,
-          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Region": "EMEA",
           "Revenues": 9745015,
           "Paid net membership additions (losses)": 2693,
           "Paid memberships at end of period": 76729,
@@ -131,7 +131,7 @@
         },
         {
           "Time": 2023,
-          "Region": "EMEA - Europe, The Middle East, Africa",
+          "Region": "EMEA",
           "Revenues": 7772957,
           "Paid net membership additions (losses)": 7031,
           "Paid memberships at end of period": 83760,
@@ -142,7 +142,7 @@
         },
         {
           "Time": 2018,
-          "Region": "LATAM - Latin America",
+          "Region": "LATAM",
           "Revenues": 2237697,
           "Paid net membership additions (losses)": 6360,
           "Paid memberships at end of period": 26077,
@@ -153,7 +153,7 @@
         },
         {
           "Time": 2019,
-          "Region": "LATAM - Latin America",
+          "Region": "LATAM",
           "Revenues": 2795434,
           "Paid net membership additions (losses)": 5340,
           "Paid memberships at end of period": 31417,
@@ -164,7 +164,7 @@
         },
         {
           "Time": 2020,
-          "Region": "LATAM - Latin America",
+          "Region": "LATAM",
           "Revenues": 3156727,
           "Paid net membership additions (losses)": 6120,
           "Paid memberships at end of period": 37537,
@@ -175,7 +175,7 @@
         },
         {
           "Time": 2021,
-          "Region": "LATAM - Latin America",
+          "Region": "LATAM",
           "Revenues": 3576976,
           "Paid net membership additions (losses)": 2424,
           "Paid memberships at end of period": 39961,
@@ -186,7 +186,7 @@
         },
         {
           "Time": 2022,
-          "Region": "LATAM - Latin America",
+          "Region": "LATAM",
           "Revenues": 4069973,
           "Paid net membership additions (losses)": 1738,
           "Paid memberships at end of period": 41699,
@@ -197,7 +197,7 @@
         },
         {
           "Time": 2023,
-          "Region": "LATAM - Latin America",
+          "Region": "LATAM",
           "Revenues": 3290438,
           "Paid net membership additions (losses)": 1946,
           "Paid memberships at end of period": 43645,
@@ -208,7 +208,7 @@
         },
         {
           "Time": 2018,
-          "Region": "APAC - Asia Pacific",
+          "Region": "APAC",
           "Revenues": 945816,
           "Paid net membership additions (losses)": 4106,
           "Paid memberships at end of period": 10607,
@@ -219,7 +219,7 @@
         },
         {
           "Time": 2019,
-          "Region": "APAC - Asia Pacific",
+          "Region": "APAC",
           "Revenues": 1469521,
           "Paid net membership additions (losses)": 5626,
           "Paid memberships at end of period": 16233,
@@ -230,7 +230,7 @@
         },
         {
           "Time": 2020,
-          "Region": "APAC - Asia Pacific",
+          "Region": "APAC",
           "Revenues": 2372300,
           "Paid net membership additions (losses)": 9259,
           "Paid memberships at end of period": 25492,
@@ -241,7 +241,7 @@
         },
         {
           "Time": 2021,
-          "Region": "APAC - Asia Pacific",
+          "Region": "APAC",
           "Revenues": 3266601,
           "Paid net membership additions (losses)": 7140,
           "Paid memberships at end of period": 32632,
@@ -252,7 +252,7 @@
         },
         {
           "Time": 2022,
-          "Region": "APAC - Asia Pacific",
+          "Region": "APAC",
           "Revenues": 3570221,
           "Paid net membership additions (losses)": 5391,
           "Paid memberships at end of period": 38023,
@@ -263,7 +263,7 @@
         },
         {
           "Time": 2023,
-          "Region": "APAC - Asia Pacific",
+          "Region": "APAC",
           "Revenues": 2801012,
           "Paid net membership additions (losses)": 4404,
           "Paid memberships at end of period": 42427,
@@ -277,16 +277,16 @@
     {"name": "data-9c00aa9dc2b1c1a0b4bf9b34ead12925", "values": [{"x": 0}]},
     {
       "name": "data_0",
-      "source": "data-3aaaf3693fae429ec4b4705476707f40",
+      "source": "data-c0a7fedda859543e0a7922ab21afa5b7",
       "transform": [
         {
           "type": "formula",
-          "expr": "datum[\"Region\"]===\"APAC - Asia Pacific\" ? 0 : datum[\"Region\"]===\"LATAM - Latin America\" ? 1 : datum[\"Region\"]===\"EMEA - Europe, The Middle East, Africa\" ? 2 : datum[\"Region\"]===\"UCAN - United States, Canada\" ? 3 : 4",
+          "expr": "datum[\"Region\"]===\"APAC\" ? 0 : datum[\"Region\"]===\"LATAM\" ? 1 : datum[\"Region\"]===\"EMEA\" ? 2 : datum[\"Region\"]===\"UCAN\" ? 3 : 4",
           "as": "column_Region_sort_index"
         },
         {
           "type": "formula",
-          "expr": "datum[\"Year\"]===\"APAC - Asia Pacific\" ? 0 : datum[\"Year\"]===\"LATAM - Latin America\" ? 1 : datum[\"Year\"]===\"EMEA - Europe, The Middle East, Africa\" ? 2 : datum[\"Year\"]===\"UCAN - United States, Canada\" ? 3 : 4",
+          "expr": "datum[\"Year\"]===\"APAC\" ? 0 : datum[\"Year\"]===\"LATAM\" ? 1 : datum[\"Year\"]===\"EMEA\" ? 2 : datum[\"Year\"]===\"UCAN\" ? 3 : 4",
           "as": "x_Year_sort_index"
         }
       ]
