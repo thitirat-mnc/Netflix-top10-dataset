@@ -3,8 +3,8 @@ We've created a website dedicated to shaping narratives around Netflix content. 
 By combining [**Netflix's top-10 movies 🍿 & TV shows 📺**](https://www.netflix.com/tudum/top10/) dataset with data from [**TMDB API**](https://developer.themoviedb.org/reference/intro/getting-started), our aim is to offer strategic guidance for Netflix in developing successful global and local original content.
 
 ## 🔗 Table of Contents
-- [Work Process](#⚙️-work-process)
-- [Story](#our-story)
+- [Work Process](#work-process)
+- [Story💭](#our-story)
   - [Global strategy 🌏](#global-strategy)
   - [Local strategy 📍](#local-strategy)
 
@@ -21,7 +21,7 @@ https://github.com/thitirat-mnc/Netflix-top10-dataset/tree/main
 > [!NOTE]
 > If you come across a 502 Bad Gateway error while viewing our visualizations, try refreshing the webpage. 
 
-## ⚙️ Work Process
+## Work Process
 ```
 Data Preparation
 ```
@@ -54,7 +54,7 @@ Validation Process
 ```
 - For testing the usability of our visualizations and storytelling, we gathered 5 people including those who have some familiarity with data and visualization concepts and those who don’t by convenience sampling. All of them were to perform every task. Through observation, we assessed their abilities to complete these tasks and identified the areas where they encountered challenges or struggled.
 
-## 💭 Our story 
+## Our story 
 - Beginning with the expansion of the **streaming services market**, particularly subscription video on demand.
 - Delving into Netflix's *financial growth and subscription growth by region 🗺*. 
 - We discuss Netflix cash spending on content over the years and allow the users to explore the success of original shows and movies. Users can view posters of the most popular Netflix originals films and TV shows (ranked by view count in the first 91 days) to see if they are familiar with any of them.
