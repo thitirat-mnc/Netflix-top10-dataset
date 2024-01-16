@@ -5,8 +5,8 @@ By combining [**Netflix's top-10 movies 🍿 & TV shows 📺**](https://www.netf
 ## 🔗 Table of Contents
 - [Work Process](#⚙️-work-process)
 - [Story](#💭-our-story )
-  - [Global strategy 🌏](#Global-strategy-🌏)
-  - [Local strategy 📍](#Local-strategy-📍)
+  - [Global strategy 🌏](#global-strategy)
+  - [Local strategy 📍](#local-strategy)
 
 
 ## 🎞️ Visit: [Storytelling Website](https://netflixvis.my.canva.site/)
@@ -59,8 +59,8 @@ Validation Process
 - Delving into Netflix's *financial growth and subscription growth by region 🗺*. 
 - We discuss Netflix cash spending on content over the years and allow the users to explore the success of original shows and movies. Users can view posters of the most popular Netflix originals films and TV shows (ranked by view count in the first 91 days) to see if they are familiar with any of them.
 - Then, we introduce the 2 approaches Netflix can use for creating new original content to be successful, **Global 🌏** and **Local strategy 📍**. 
-### **Global strategy 🌏**
+### **Global strategy**
 This involves creating TV shows or films with a drama genre, a universally most favorite genre. Alternatively, Netflix can adapt films from books 📚📒 that have been well-known for many ages in many countries. Users also can see trends of each genre through time to see the relationship between genre and time by country and see what words that each genre mostly use in their overviews by word cloud.
-### **Local strategy 📍**
+### **Local strategy**
 When we look beyond drama which is 1st ranked and consider the 2nd to 4th favorite genres in each country, we notice unique patterns and shared preferences. To capture this, we create a world map chart displaying the group of 2nd to 4th ranked genres in each country, revealing popular genre combinations in different regions. Additionally, users can view the popularity of the genre in each country in world maps. 
 - In summary, we suggest Netflix to maintain producing their original contents in 2 ways depending on the genre of their products and the target country they aim to.
