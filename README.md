@@ -4,7 +4,7 @@ By combining [**Netflix's top-10 movies 🍿 & TV shows 📺**](https://www.netf
 
 ## 🔗 Table of Contents
 - [Work Process](#⚙️-work-process)
-- [Story](#💭-our-story )
+- [Story](#our-story)
   - [Global strategy 🌏](#global-strategy)
   - [Local strategy 📍](#local-strategy)
 
