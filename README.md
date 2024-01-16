@@ -3,7 +3,7 @@ We've created a website dedicated to shaping narratives around Netflix content. 
 By combining [**Netflix's top-10 movies 🍿 & TV shows 📺**](https://www.netflix.com/tudum/top10/) dataset with data from [**TMDB API**](https://developer.themoviedb.org/reference/intro/getting-started), our aim is to offer strategic guidance for Netflix in developing successful global and local original content.
 
 ## 🔗 Table of Contents
-- [Work Process](#work-process)
+- [Work Process ⚙️](#work-process)
 - [Story💭](#our-story)
   - [Global strategy 🌏](#global-strategy)
   - [Local strategy 📍](#local-strategy)
